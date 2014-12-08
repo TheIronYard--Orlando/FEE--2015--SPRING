@@ -2,7 +2,7 @@
 
 ## Timeliness
 
-According to official policy, if you miss more than 4 lectures you'll forfeit placement support. What's more, this class moves _extremely_ quickly, so any absence will be hard to make up. Finally, please respect everyone by arriving on time and ready to start promptly at 09:00 am every day. If you must be tardy, please contact Susanna drectly and notify the class via HipChat, but also note that we count 2 tardies -- more than 15 minutes late -- as an absence.
+According to official policy, if you miss more than 4 lectures you'll forfeit placement support. What's more, this class moves _extremely_ quickly, so any absence will be hard to make up. Finally, please respect everyone by arriving on time and ready to start promptly at 09:00 am every day. If you must be tardy, please contact Susanna directly and notify the class via HipChat, but also note that we count 2 tardies -- more than 15 minutes late -- as an absence.
 
 ## Homework
 
