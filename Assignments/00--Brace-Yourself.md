@@ -41,5 +41,18 @@ As your first assignment, [create a new Issue in the class repo](https://github.
     * [ ] Add a link to your new fork as a comment to your WIP Issue
 * [ ] Close this issue! You're done!
 
+#### Extracurricular Activities
+
 Regardless of how good you think you are at typing, a lot of the mistakes you make at first will be simple typographic errors. If you _don't_ know how to touch type (i.e. without looking at the keyboard), start practicing _now_ with http://www.keybr.com/. If you're fairly confident in your typing ability, try working through the JavaScript lessons on http://typing.io
 
+As I recommended to you in your interviews, there are two books that I suggest you start reading. They're both avaialble in digital format on various devices, and they're both relatively easy reads:
+
+* [_Getting Things Done_ by David Allen](http://j.mp/134jABk)
+* [_Pragmatic Thinking and Learning_ by Andy Hunt](http://j.mp/1D5nmu8)
+
+Finally, here are a couple of videos that I find inspirational and educational. We'll watch them again when class starts, but if you've got all this time on your hands:
+
+* [_The Growth Mindset_ by Khan Academy](https://www.youtube.com/watch?v=wh0OS4MrN3E)
+* [Video Essays by Delve.TV](http://delve.tv/essays/)
+   * [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
+   * [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
