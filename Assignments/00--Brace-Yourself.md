@@ -29,7 +29,7 @@ As your first assignment, [create a new Issue in the class repo](https://github.
 * [ ] With HipChat installed:
     * [ ] [Create your account](https://www.hipchat.com/invite/31349/a142a6025f7a427bd4813063bea8b0d1)
     * [ ] Login with your credentials for The Iron Yard.
-    * [ ] Join the room for the class: "Orlando - Acacdemy - JS - Jan 2015"
+    * [ ] Join the room for the class: "Orlando - Academy - JS - Jan 2015"
 * [ ] [Complete the "Hello World" Github guide](https://guides.github.com/activities/hello-world/)
     * [ ] Add a link to your new Github repo as a comment in your WIP Issue.
 * [ ] Create _another_ new repository called `TIY-Assignments`
