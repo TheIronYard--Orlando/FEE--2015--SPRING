@@ -29,7 +29,7 @@ After completing this assignment, you should...
 After completing this assignment, you be able to effectively use...
 
 * Github to:
-    * create a branch   
+    * create a branch
     * create and edit files and folders (directories)
     * open a Pull Request (PR) from a branch
     * create and link Issues to PRs
