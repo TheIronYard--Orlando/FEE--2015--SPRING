@@ -136,7 +136,7 @@ Use the following format for your own "Reading CSS" file: `docs/CSS.md`. Please 
 
 ### Additional Resources
 
-* [Notes for 2015-01-06](../Notes/2015-01-06.md)
+* [Notes for 2015-01-06](../Notes/2015-01-06/)
 * [_About HTML5_ on MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 * [_CSS Reference_ on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [_Semantic HTML_ on Wikipedia](http://en.wikipedia.org/wiki/Semantic_HTML) (M)
