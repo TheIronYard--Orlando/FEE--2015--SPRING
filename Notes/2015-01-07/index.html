@@ -12,6 +12,11 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <style>
+/** Put CSS here! **/
+
+
+        </style>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -20,7 +25,21 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container" id="container">
+            <header id="page-header">
+                <img src="/path/to/image.png">
+            </header> <!-- #page-header -->
+            <section class="page-columns">
+               <aside style="float:left; width:100px" class="page-column-side">
+                  <p>Hello sidebar!</p>
+               </aside>
+               <section class="page-column-main">
+                  <p>Hello main column!</p>
+               </section> <!-- .page-column-main -->
+            </section> <!-- .page-columns -->
+            <footer id="page-footer">
+            </footer>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
