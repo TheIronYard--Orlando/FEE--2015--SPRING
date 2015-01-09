@@ -61,7 +61,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container: {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /**
+    How do I set a:
+    - minimum width?
+    - maximum width?
+    **/
+}
+.column { }
+.column-side {
+    width: 37.5%;
+    float: left;
+}
+.column-main {
+    margin-left: auto;
+    width: 62.5%
+}
 
+article img {
+    width: 100%;
+}
 
 
 
