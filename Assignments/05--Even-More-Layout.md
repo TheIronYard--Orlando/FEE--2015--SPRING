@@ -17,13 +17,9 @@
     * commits that:
         * delete your `pub/` directory or its contents
         * delete your `specs/` directory or its contents
-        * ~~adds the file `_config.yml` as provided in **Requirements**~~
-        * adds a `index.md` file _outside_ of `pub/` as provided in **Requirements**
     * multiple commits no more than 1 hour apart with _good_ commit messages
     * annotated design specs in `specs/`
     * HTML and CSS in `pub/index.html` and `pub/css/main.css`
-* A branch in your `TIY_Assignments` repo named `gh-pages` based on `feature/05--more-layout` with:
-    * the most functional version of your code!
 * A PR in your `TIY-Assignments` repo with:
     * a link to your _WIP Issue_
     * feedback from peers
@@ -31,8 +27,7 @@
 * Comments in your _WIP Issue_ with:
     * a link to your PR
     * a link to your `gh-pages` site: `http://USERNAME.github.io/TIY-Assignments`
-    * a checklist of bugs in your deployed version
-* **Pro Tip:** Try deploying `gh-pages` _early_!
+    * a checklist of bugs in your ~~deployed~~ **final** version
 
 ## Requirements
 
@@ -59,24 +54,5 @@
   * [ ] Checkpoint: First deployment! :squirrel:
   * [ ] Mission Complete! :checkered_flag:
 * **BONUS** -- Skitch the _Responsive Breakpoints_
-
-### Contents of `_config.yml`
-
-Totally skip this step, actually.
-
-### Contents of `index.md`
-
-Copy _everything_ inside the code fence:
-
-```markdown
----
----
-
-# Hello World!
-
-* [Vertical Timeline](pub/index.html)
-```
-
-When you push `gh-pages` to Github and check `http://USERNAME.github.io/TIY-Assignments/`, you should see an HTML version of that "Hello World!" file. Check that the link works; see me or Logan if it doesn't!
 
 ## Additional Resources
