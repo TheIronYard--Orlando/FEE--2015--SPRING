@@ -59,4 +59,14 @@
   * [ ] Mission Complete! :checkered_flag:
 * **BONUS** -- Skitch the _Responsive Breakpoints_
 
+### Contents of `_config.yml`
+
+Copy inside the code fence:
+
+```yaml
+source: "pub"
+```
+
+Yeah, it's really complicated...
+
 ## Additional Resources
