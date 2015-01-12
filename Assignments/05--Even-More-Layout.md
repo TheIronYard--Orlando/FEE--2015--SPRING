@@ -17,7 +17,8 @@
     * commits that:
         * delete your `pub/` directory or its contents
         * delete your `specs/` directory or its contents
-        * adds the file `_config.yml` as provided in **Requirements**
+        * ~~adds the file `_config.yml` as provided in **Requirements**~~
+        * adds a `index.md` file _outside_ of `pub/` as provided in **Requirements**
     * multiple commits no more than 1 hour apart with _good_ commit messages
     * annotated design specs in `specs/`
     * HTML and CSS in `pub/index.html` and `pub/css/main.css`
@@ -61,12 +62,21 @@
 
 ### Contents of `_config.yml`
 
-Copy inside the code fence:
+Totally skip this step, actually.
 
-```yaml
-source: "pub"
+### Contents of `index.md`
+
+Copy _everything_ inside the code fence:
+
+```markdown
+---
+---
+
+# Hello World!
+
+* [Vertical Timeline](pub/index.html)
 ```
 
-Yeah, it's really complicated...
+When you push `gh-pages` to Github and check `http://USERNAME.github.io/TIY-Assignments/`, you should see an HTML version of that "Hello World!" file. Check that the link works; see me or Logan if it doesn't!
 
 ## Additional Resources
