@@ -4,9 +4,9 @@
 
 Now you've built a liquid version of Surf & Paddle and taken a first stab at a liquid Vertical Timeline, but you know there's more... we've even built some of it together in class. Let's use what we've learned about Responsive Web Design (RWD) to build a mobile-friendly version!
 
-From using the Mobile Inspector in Chrome Dev Tools to explore [the sample implementation](http://theironyard--orlando.github.io/FEE--2015--SPRING/), we can tell that there are 3 breakpoints: large, medium, and small. At the medium breakpoint, there are some slight font-size changes to accommodate the shrinking screen real estate. At the small breakpoint, however, the layout completely changes in an example of using different CSS on the same HTML to affect different layouts (see [CSS Zen Garden](http://csszengarden.com)). 
+From using the Mobile Inspector in Chrome Dev Tools to explore [the sample implementation](http://theironyard--orlando.github.io/FEE--2015--SPRING/), we can tell that there are 3 breakpoints: large, medium, and small. At the medium breakpoint, there are some slight font-size changes to accommodate the shrinking screen real estate. At the small breakpoint, however, the layout completely changes in an example of using different CSS on the same HTML to affect different layouts (see [CSS Zen Garden](http://csszengarden.com)).
 
-Your assignment is to implement those media queries and CSS overrides for the medium and small breakpoints. Start by dding design specs for them. Next, add media queries and CSS rules to duplicate that behavior. Remember if you change the HTML to accommodate the _small_ breakpoint, you might alter the layout of the other two by accident. Mind [the Rules of The Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade): order, specificity, and inheritance. 
+Your assignment is to implement those media queries and CSS overrides for the medium and small breakpoints. Start by dding design specs for them. Next, add media queries and CSS rules to duplicate that behavior. Remember if you change the HTML to accommodate the _small_ breakpoint, you might alter the layout of the other two by accident. Mind [the Rules of The Cascade](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade): order, specificity, and inheritance.
 
 ## Deliverables
 
@@ -47,5 +47,22 @@ Your assignment is to implement those media queries and CSS overrides for the me
 
 ## Additional Resources
 
-* MDN CSS `@media` queries
-* CSS Zen Garden
+* **Reference**
+    * [CSS Media Queries on MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+    * [CSS `@media` rule on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+    * [Media Queries on Wikipedia](http://en.wikipedia.org/wiki/Media_queries)
+    * [Responsive Web Design on Wikipedia](http://en.wikipedia.org/wiki/Responsive_web_design)
+* **Articles**
+    * [_Responsive Web Design_ on _A List Apart_](http://alistapart.com/article/responsive-web-design) by [Ethan Marcote](http://ethanmarcotte.com/)
+    * By [Nick Petit](http://nickpettit.com/) of [Team Treehouse](http://teamtreehouse.com):
+        * [_Beginner's Guide to Responsive Web Design_](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design) (circa 2012)
+        * [_2014 Guide to Responsive Web Design_](http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design)
+    * [_Responsive Web Design: What It Is and How to Use It_ on _Smashing Magazine_](http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
+    * By [Luke Wroblowski](http://www.lukew.com/about):
+        * [_Mobile First_](http://www.lukew.com/ff/entry.asp?933) (see references)
+        * [_Multi-Device Layout Patterns_](http://www.lukew.com/ff/entry.asp?1514)
+    * [_Future-Friendly Thinking](http://futurefriendlyweb.com/thinking.html)
+* **VISUALS:**
+    * Same HTML, different layouts: [CSS Zen Garden](http://csszengarden.com)
+    * Examples of sites using [MediaQueri.es](http://mediaqueri.es/)
+    * [9 Basic Principles of Responsive Design](http://blog.froont.com/9-basic-principles-of-responsive-web-design/)
