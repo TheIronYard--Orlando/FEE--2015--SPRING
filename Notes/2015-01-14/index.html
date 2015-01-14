@@ -22,22 +22,71 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <ol class="timeline">
-          <li class="timeline--point">
-            <time>
-              <small>1/1/2015</small> 
-              <big>18:30</big>
-            </time>
-            <icon>[M]<!-- TODO: Make this work... --></icon>
-            <article>
-              <h3> lorem ipsum dolor sit amet </h3>
-              
-              <p>
-              Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero. Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet. Stet clita kasd gubergren no sea takimata. Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. Amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero eos et.
-              </p>
-            </article>
-          </li> <!-- .timeline--point -->
-        </ol>
+        <style>/* FIXME: Move to `css/main.css`... */
+          .container, .page {
+            width: 80%; margin: auto;
+          }
+          .timeline {
+            margin: auto; padding: 0;            
+          }
+          .timeline--point {
+            display: block;
+            position: relative;
+          }
+          .timeline--point article {
+            background-color: lightblue;
+            color: white;
+            padding: 2ex 2em;
+            border-radius: 0.5em;
+          }
+          .timeline--point .icon {
+            background-color: lightblue;
+            border: 1ex solid darkblue;
+            border-radius: 50%;
+            padding: 1ex;
+
+            position: absolute;
+            /* defaults are: 0 */
+            top: 0;
+            left: auto;
+            bottom: auto;
+            right: 0;
+            */
+          }
+          
+        </style>
+        <div class="container page">
+          <ol class="timeline">
+            <li class="timeline--point">
+              <time>
+                <small>1/1/2015</small> <br>
+                <big>18:30</big>
+              </time>
+              <div class="icon">[M]<!-- TODO: Make this work... --></div>
+              <article>
+                <h3> lorem ipsum dolor sit amet </h3>
+
+                <p>
+                Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero. Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet. Stet clita kasd gubergren no sea takimata. Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. Amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero eos et.
+                </p>
+              </article>
+            </li> <!-- .timeline--point -->
+            <li class="timeline--point">
+              <time>
+                <small>1/1/2015</small> <br>
+                <big>18:30</big>
+              </time>
+              <div class="icon">[C]<!-- TODO: Make this work... --></div>
+              <article>
+                <h3> lorem ipsum dolor sit amet </h3>
+
+                <p>
+                Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero. Diam voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet. Stet clita kasd gubergren no sea takimata. Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. Amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero eos et.
+                </p>
+              </article>
+            </li> <!-- .timeline--point -->
+          </ol>
+        </div>
       
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
