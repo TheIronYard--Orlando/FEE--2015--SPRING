@@ -10,6 +10,14 @@ Wipe your directory clean, start the project fresh from HTML5 Boilerplate, and b
 
 Finally, you'll note that the is no design direction for a medium or tablet view. Supply your own ideas. Get creative. Experiment. I wanna see at least three distinct layouts, though.
 
+### Build a Blog
+
+Look at all the learning you've had! You should really tell the world about it. No, I don't mean Facebook... Blogging! Time to setup your new developer blog with [Github Pages](http://pages.github.com)! **Note:** If you already have a blog, this is still a valuable exercise.
+
+Use the Github interface to create a new repository called `USERNAME.github.io` with a `README.md` and `LICENSE` file... but also add a `.gitignore` file for "Jekyll" projects (there's a drop-down for that). Next, drop an `index.html` file inside the repo with a simple "Hello World!" heading, and visit `http://USERNAME.github.io` (where `USERNAME` is _your_ Github profile name, of course). Hello, Blog! Wait, what?
+
+This could be so much nicer... Too bad you don't know how to build a blog template. Oh, wait! You do! Use [the Longform theme](https://www.pixelunion.net/themes/tumblr/longform/) as a reference, and build yourself a blog site to match. This will continue to evolve as your skills advance... It's a Github repo, after all. Customize to your heart's content or just keep it simple and straight-forward. Start with HTML5 Boilerplate and end up pixel-perfect! :shamrock:
+
 ## Deliverables
 
 * A new _WIP Issue_ in the class repo with tasks and estimates
@@ -25,9 +33,16 @@ Finally, you'll note that the is no design direction for a medium or tablet view
   * a link to your _WIP Issue_
   * a link to your `index.html` on [HTML Preview](http://htmlpreview.github.io)
   * feedback and 2x :+1:'s from your peers
+* A new repository called `USERNAME.github.io` with:
+  * HTML5 Boilerplate
+  * multiple commits to `index.html` and `css/main.css`
+  * a pixel-perfect implementation of [Longform](https://www.pixelunion.net/themes/tumblr/longform/)
+  * a single blog post
 * Comments on your _WIP Issue_ with:
   * a link to your PR
-  * a checklist of bugs
+  * a checklist of bugs in your S&P implementation
+  * a link to your GH Pages site
+  * a checklist of bugs in your GH Pages implementation
 
 ## Requirements
 
@@ -56,11 +71,41 @@ To avoid getting an `INCOMPLETE`, you **MUST** have a _WIP Issue_ and _PR_ that 
   * Checkpoint: HTML5 Boilerplate
   * Checkpoint: Adding assets for logo
   * Checkpoint: Linked fonts for icons and copy
-  * Checkpoint: Full-size header complete!
+  * Checkpoint: Small-size header complete!
+  * Checkpoint: Small-size footer complete!
+  * Checkpoint: Small-size columns complete!
+  * Checkpoint: Small-size article complete!
+  * Checkpoint: Small-size sidebar complete!
+  * Checkpoint: Small-size layout complete!
+  * Checkpoint: Small-size header complete!
   * Checkpoint: Full-size footer complete!
   * Checkpoint: Full-size columns complete!
   * Checkpoint: Full-size article complete!
   * Checkpoint: Full-size sidebar complete!
   * Checkpoint: Full-size layout complete!
+  * Checkpoint: Medium-size header complete!
+  * Checkpoint: Medium-size footer complete!
+  * Checkpoint: Medium-size columns complete!
+  * Checkpoint: Medium-size article complete!
+  * Checkpoint: Medium-size sidebar complete!
+  * Checkpoint: Medium-size layout complete!
+* [ ] **Build a Blog**
+  * Checkpoint: Repository exists!
+  * Checkpoint: Hello, blog!
+  * Checkpoint: HTML5 Boilerplate again?
+  * Checkpoint: Basic MF'g HTML
+  * Checkpoint: Basic 2-column layout
+  * Checkpoint: Header fully styled!
+  * Checkpoint: Footer fully styled!
+  * Checkpoint: Look, ma, I'm a blogger!
+  * Mission Complete!
 
 ## Additional Resources
+
+* **Reference**
+    * [Github Pages](http://pages.github.com)
+    * [Longform Tumblr theme](https://www.pixelunion.net/themes/tumblr/longform/) by [Pixel Union](http://pixelunion.com)
+* **Articles**
+    * [_How I'd Start (Restart) a Blog If I Were to Begin Today_](http://john.do/today/#more-53684) by [John Saddington](http://john.do/about/)
+    * [Responsive Design articles on _A List Apart_](http://alistapart.com/topic/responsive-design)
+
