@@ -3,6 +3,10 @@ var assert = require('assert');
 // ------ Look, we're pairing! -----
 
 
-var add = "hi";
+function add(){
+  return 2;
+};
+
 assert(add);
-assert(add(1, 1));
+//assert(add(1,1) == 2);
+assert.equal(add(1, 1), 2);
