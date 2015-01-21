@@ -1,15 +1,8 @@
 var assert = require('assert');
 
-function add(A, B){
-  console.log(A + B);
-  return A + B;
-}
+// ------ Look, we're pairing! -----
 
-add(1, 1); // {2}
 
-assert.equal(
-  add(1, 1), 
-  2
-);
-
-add(add(1, 1), 2);
+var add = "hi";
+assert(add);
+assert(add(1, 1));
