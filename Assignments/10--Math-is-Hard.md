@@ -2,12 +2,27 @@
 
 ## Description
 
-* pair programming
-* build your own  calculator: add, sub, mul, div
-* start on your own _string_ calculator
-* continue documentation: control flow
-* add chess pieces to board
-* correct bugs
+Turns out that math is harder than it looks. Today we're going to build your own calculator (and put pieces on your chessboard) and even figure out how to add words. Killer.
+
+### Reading JavaScript, part 2
+
+Start by documenting at least 10 [control flow statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements) in JavaScript, but be sure to include at least `if`, `else`, and `return`, as we'll definitely need those for the assignment tonight.
+
+### Math is Hard
+
+Next, start [pair programming](http://en.wikipedia.org/wiki/Pair_programming) on your **Calculator Kata** with a partner. Timebox yourselves to 25 minutes, trade roles every 5 minutes or so, and commit in between using your Github usernames for the commit message. Since everyone needs code in their repo and you can only work on one computer at a time, be sure to trade computers for _another_ 25 mins.
+
+Also take a shot at the **String Calculator Kata**... at least the `plus()` function.
+
+### How about a nice game of chess?
+
+What's a chessboard without pieces? Adding [HTML entities for each chess piece](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) is simple enough... what if we did it with CSS instead? Consider some HTML like:
+
+```html
+<div class="piece white queen"></div>
+```
+
+What CSS would I need to add to `.piece.white.queen` to insert a white queen character into the `<div>`...? How would that affect my chessboard layout?
 
 ## Deliverables
 
@@ -108,7 +123,17 @@ For people who need challenges, add more operations or expand your number range.
 
 ## Additional Resources
 
-* [JavaScript Guide on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-  * [Statements (Control Flow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
-* [JavaScript Reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-  * [Statements and Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+* [**Notes from Class**](../Notes/2015-01-21/)
+  * [chessboard: `index.html`](../Notes/2015-01-21/index.html)
+  * [calculator: `main.js`](../Notes/2015-01-21/main.js)
+  * to use `node` as a REPL
+    * just type `node` and hit enter
+    * use `^C` (control + c) to "cancel" a command
+    * use `^D` (control + d) to "quit" the REPL (done)
+  * to use `node` to run a `.js` file: `node path/to/file.js`
+  * when that gets lame: `watch "node path/to/file.js 2>&1"`
+* **Reference**
+  * [JavaScript Guide on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+    * [Statements (Control Flow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Statements)
+  * [JavaScript Reference on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+    * [Statements and Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
