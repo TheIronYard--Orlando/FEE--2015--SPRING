@@ -23,7 +23,7 @@
   * commits for **Check Writing Kata** in `scripts/check-writing.js`
 * Open PR from `feature/11--coding-dojo` to `master` with:
   * link to your _WIP Issue_
-  * 2x :+1s: from your peers
+  * 2x :+1:s from your peers
 * New blog post in `USERNAME.github.io` with a permalink (e.g. `http://USERNAME.github.io/#blog-title`)...!
 * Fork of [`mrdavidlaing/javascript-koans`](https://github.com/mrdavidlaing/javascript-koans) with:
   * a new branch called `first` with commits to the `koans/` directory _only_
@@ -130,7 +130,7 @@ function print(board){
   // stuff and junk...
 }
 
-function move(fromX, fromY, toX, toY){
+function move(board, fromX, fromY, toX, toY){
   // TODO: make this work...
 }
 ```
