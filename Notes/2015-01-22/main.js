@@ -18,7 +18,6 @@ describe('Array', function(){
  * @return Number
  */
 function plus(A, B){
-  var if = 'else';
   if ( A == "zero" ){
   }
   return 2;
