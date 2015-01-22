@@ -48,7 +48,24 @@
           }
           tbody :nth-child(even) td:nth-child(even), 
           tbody :nth-child(odd) td:nth-child(odd) {
-            background-color: black;
+            background-color: gray;
+          }
+          
+          td {
+            position: relative;
+          }
+          td:before {
+            font-size: 7em;
+            position: absolute;
+          }
+          .queen:before {
+            content: '\2655';
+          }
+          .king:before {
+            content: '\2654';
+          }
+          .black.pawn:before {
+            content: '\265F'; /* ???? */
           }
         </style>
         <table>
@@ -64,9 +81,9 @@
           <tbody>
             <tr>
               <th> 8 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
+              <td class="queen"> </td>
+              <td class="king"> </td>
+              <td class="black pawn"> </td>
               <td> </td>
             </tr>
             <tr>
