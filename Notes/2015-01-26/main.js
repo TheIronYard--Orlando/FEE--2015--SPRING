@@ -16,3 +16,8 @@ it('should have a function called `plus`', function(){
 it('should take "zero"', function(){
   assert(plus("zero", "zero") == 0);
 });
+
+
+it('should take "one"', function () {
+  assert(plus("zero","one") == 1);
+});
