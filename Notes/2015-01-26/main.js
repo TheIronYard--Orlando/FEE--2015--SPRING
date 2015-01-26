@@ -5,7 +5,7 @@ console.log(Date());
 /* --- Pair programming! --- */
 
 function plus(a, b){
-  return 0;
+  return a + b;
 }
 
 it('should have a function called `plus`', function(){
@@ -14,10 +14,12 @@ it('should have a function called `plus`', function(){
 });
 
 it('should take "zero"', function(){
-  assert(plus("zero", "zero") == 0);
+  assert.equal(plus("zero", "zero"), 0);
 });
 
 
 it('should take "one"', function () {
-  assert(plus("zero","one") == 1);
+  assert.equal(plus("zero","one"), 1);
 });
+
+//it('should add
