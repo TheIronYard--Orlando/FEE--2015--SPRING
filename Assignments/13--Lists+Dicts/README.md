@@ -2,7 +2,7 @@
 
 ## Description
 
-Coming off the weekend, you should be sick of typing `if`, `else`, and `return`, so let's try out our new `Array` and `Object` literals on those mean ole **String Calculator** and **Check Writing** katas. Before we do, though, **Take a Picture** of your logic for practice. You'll need to learn some more `Array` methods before we prep the floow for some **API Gymnastics**.
+Coming off the weekend, you should be sick of typing `if`, `else`, and `return`, so let's try out our new `Array` and `Object` literals on those mean ole **String Calculator** and **Check Writing** katas. Before we do, though, **Take a Picture** of your logic for practice. You'll need to learn some more `Array` methods before we prep the floor for some **API Gymnastics**.
 
 ### Take a Picture
 
