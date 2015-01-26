@@ -1,4 +1,4 @@
-# 13 == Of Lists and Dictionaries
+# 13 -- Of Lists and Dictionaries
 
 ## Description
 
@@ -21,6 +21,13 @@ Think you've mastered the **String Calculator** and **Check Writing** katas? Not
 Use the `curl` command to get some crazy event data from the Github API and stick it in a file called `apis/github/users/USERNAME/events.json` where `USERNAME` is _your_ Github profile name, e.g. `apis/github/users/al-the-x/events.json` for moi: `al-the-x`. Yes, you'll have to create some empty directories along the way... Remember how to do it in one step? Following the **Requirements** below, use your iterator methods to pull some interesting numbers from the data.
 
 ## Deliverables
+
+* _WIP Issue_ named `13 -- Lists+Dicts` with tasks _and estimates!_
+* PR in `TIY-Assignments` from `feature/13--lists+dicts` to `master` with:
+    * diagram of `toEnglish()` from `scripts/check-writing.js` in `docs/toEnglish.png`
+    * more documentation in `docs/JS.md` for _non-experimental_ [Iteration Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)
+    * JSON file in `apis/github/users/USERNAME/events.json` (where `USERNAME` is _you_)
+    * new file in `scripts/` called `gymnastics.js` with a function called `answers` that meets **Requirements**
 
 ## Requirements
 
