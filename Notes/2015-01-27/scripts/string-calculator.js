@@ -34,7 +34,9 @@ function plus(A, B){
     "five": 5,
   };
   
-  return numbers[B];
+  if ( numbers[B] !== undefined ){
+    return numbers[B];
+  }
   
   if ( B == "four" ){
     return 4;
