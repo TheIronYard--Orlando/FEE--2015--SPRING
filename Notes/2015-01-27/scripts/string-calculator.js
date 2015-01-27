@@ -36,14 +36,6 @@ function plus(A, B){
   
   return numbers[B];
   
-  if ( B == "six" ){
-    return numbers[B];
-  }
-
-  if ( B == "five" ){
-    return numbers[B];
-  }
-
   if ( B == "four" ){
     return 4;
   }
