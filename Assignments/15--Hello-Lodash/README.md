@@ -1,12 +1,10 @@
-# 14 -- Hello Lodash
+# 15 -- Hello Lodash! (I Hope)
 
 ## Description
 
 ### Coding Dojo
 
-If you haven't finished the **Check Writing** refactor with `Array` lookup from last night, complete that.If you _have_, delete your production code and start over. Then continue with that kata up to `20`. It should be significantly easier with lookups than it was with those `if`+`return` blocks. Now the only tedious part is writing the tests! How can we improve that?
-
-Using what we covered in class today about `Object` literals and dictionary lookups, _refactor_ your production code to use a dictionary instead of all those `if`+`returns`... If you don't have full test coverage up to `plus("ten", "ten")`, catch up!
+Do some more dojos!
 
 ### Reading JavaScript: Lodash Edition
 
@@ -22,33 +20,22 @@ Update your `events.json` file from the API using `curl`, Postman, a Chrome tab.
 ```javascript
 function answer(){
   return {
-    'total': ... // `Number` of total entries
-    'types': [ ... ], // `Array` of `String`: unique type names across all entries
-    'dates': [ ... ], // `Array` of `String`: unique dates across all entries
-    'PushEvent': { // Results for "PushEvent"
-      'dates': [ ... ], // `Array` of `String`: unique dates across all entries
-      'total': ..., // `Number` of "PushEvent" entries
-      'perDay': { // breakdown by day...
-        'avg': ..., // `Number` average per day
-        'max': ..., // `Number` maximum per day
-        'min': ... // `Number` minimum per day
-      }
-    } // END PushEvent
+    // New challenges here...
   }; // END return
 } // END answer
 ```
 
 #### BEAST MODE
 
-There are more events in that data than just the `PushEvent` entries. Collect the same stats for each of the other types that you did for `PushEvent`.
-
-#### NIGHTMARE MODE
-
-The data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_
+Do something harder...
 
 ### A Better Chessboard
 
+Make a better chessboard using `_.template` and some examples.
 
+#### BEAST MODE
+
+Output classes, too, not just HTML entities.
 
 ## Deliverables
 

@@ -1,4 +1,4 @@
-# 14 -- Hello Lodash
+# 14 -- Hello... Wait.
 
 ## Description
 
@@ -10,7 +10,7 @@ Using the technique that I showed you in class, refactor your production code fo
 
 ### API Gymnastics
 
-So here we are again, learning to roll and flip. Don't hurt yourself:
+So here we are again, learning to roll and flip. Don't hurt yourself and work as a team!
 
 ```javascript
 function answer(){
@@ -48,7 +48,7 @@ function answer(){
 }
 ```
 
-#### BEAST MODE
+#### NIGHTMARE MODE
 
 The data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_
 
@@ -63,9 +63,4 @@ Tomorrow we'll review [the Lodash library](http://lodash.com) and cover our new 
   * [_List_ data type on Wikipedia](http://en.wikipedia.org/wiki/List_%28abstract_data_type%29)
   * [_Queue_ data type on Wikipedia](http://en.wikipedia.org/wiki/Queue_(abstract_data_type))
   * [_Stack_ data type on Wikipedia](http://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-* [Lodash](http://lodash.com) vs [Underscore](http://underscorejs.org)
-  * [Comparison on Stack Overflow](http://stackoverflow.com/questions/13789618/differences-between-lodash-and-underscore)
-  * ["Say 'Hello' to Lo-Dash" by Kit Cambridge](http://kitcambridge.be/blog/say-hello-to-lo-dash/)
-* [Glossary of Chess on Wikipedia](http://en.wikipedia.org/wiki/Glossary_of_chess)
-  * [rank (row)](http://en.wikipedia.org/wiki/Glossary_of_chess#Rank)
-  * [file (column)](http://en.wikipedia.org/wiki/Glossary_of_chess#file)
+
