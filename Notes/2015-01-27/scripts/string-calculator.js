@@ -30,7 +30,8 @@ it('should add "zeros"', function(){
  */
 function plus(A, B){
   var numbers = {
-    "six": 6
+    "six": 6,
+    "five": 5,
   };
   
   if ( B == "six" ){
