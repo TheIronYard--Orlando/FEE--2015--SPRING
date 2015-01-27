@@ -34,17 +34,16 @@ function plus(A, B){
     "five": 5,
   };
   
+  return numbers[B];
+  
   if ( B == "six" ){
     return numbers[B];
   }
 
   if ( B == "five" ){
     return numbers[B];
-    
-    return numbers["five"];
-    
-    return 5;
   }
+
   if ( B == "four" ){
     return 4;
   }
