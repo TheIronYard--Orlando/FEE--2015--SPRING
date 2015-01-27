@@ -39,6 +39,8 @@ function plus(A, B){
   }
 
   if ( B == "five" ){
+    return numbers[B];
+    
     return numbers["five"];
     
     return 5;
