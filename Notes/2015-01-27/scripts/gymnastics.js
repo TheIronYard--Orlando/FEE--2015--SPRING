@@ -6,11 +6,13 @@ function answer(){
   var index = 0;
   var numberOfPushEvents = 0;
 
-  events.forEach(function(item){
+  function countPushEvents(event){
     if ( item.type == "PushEvent" ){
       numberOfPushEvents++;
     }
-  });
+  }
+  events.forEach(countPushEvents);
+
   var pushEvents = events.filter(function(item){
     return item.type == 'PushEvent';
   });
