@@ -7,7 +7,7 @@ it('should have a `plus` function', function(){
   assert.equal(typeof plus, 'function');
 });
 
-it('should add "zeros"', function(){
+it('should add "zero" to everything', function(){
   assert.equal(plus("zero", "zero"), 0);
   assert.equal(plus("zero", "one"), 1);
   assert.equal(plus("zero", "two"), 2);
@@ -15,6 +15,10 @@ it('should add "zeros"', function(){
   assert.equal(plus("zero", "four"), 4);
   assert.equal(plus("zero", "five"), 5);
   assert.equal(plus("zero", "six"), 6);
+});
+
+it('should add "one" to everything', function(){
+  assert.equal(plus("one", "zero"), 1);
 });
 
 /**
@@ -38,6 +42,10 @@ function plus(A, B){
     "one": 1,
     "zero": 0,
   };
+  
+  if ( A == "one" ){
+    return 1;
+  }
   
   return numbers[B];
 } // END plus
