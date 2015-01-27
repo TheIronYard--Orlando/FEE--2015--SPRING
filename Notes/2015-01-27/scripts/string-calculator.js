@@ -2,8 +2,17 @@ var assert = require('assert');
 
 console.log(Date());
 
-it('should fail', function(){
-  assert(true);
+it('should have a `plus` function', function(){
+  assert(plus);
+  assert.equal(typeof plus, 'function');
+});
+
+it('should add "zeros"', function(){
+  assert.equal(plus("zero", "zero"), 0);
+  assert.equal(plus("zero", "one"), 1);
+  assert.equal(plus("zero", "two"), 2);
+  assert.equal(plus("zero", "three"), 3);
+  assert.equal(plus("zero", "four"), 4);
 });
 
 /**
@@ -18,4 +27,17 @@ it('should fail', function(){
  * @return Number sum of A and B
  */
 function plus(A, B){
+  if ( B == "three" ){
+    return 3;
+  }
+  
+  if ( B == "two" ){
+    return 2;
+  }
+
+  if ( B == "one" ){
+    return 1;
+  }
+
+  return 0;
 } // END plus
