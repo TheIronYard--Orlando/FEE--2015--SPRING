@@ -2,69 +2,59 @@
 
 ## Description
 
-### Coding Dojo
+### Coding Dojos
 
-If you haven't finished the **Check Writing** refactor with `Array` lookup from last night, complete that.If you _have_, delete your production code and start over. Then continue with that kata up to `20`. It should be significantly easier with lookups than it was with those `if`+`return` blocks. Now the only tedious part is writing the tests! How can we improve that?
+If you haven't completed your **Check Writing** kata refactored to `Array` lookup or your tests are still commented out, fix that first! If you've already completed that refactor, work your way up to `20`... then help the others get there.
 
-Using what we covered in class today about `Object` literals and dictionary lookups, _refactor_ your production code to use a dictionary instead of all those `if`+`returns`... If you don't have full test coverage up to `plus("ten", "ten")`, catch up!
-
-### Reading JavaScript: Lodash Edition
-
-[The Lodash library](http://lodash.com/) provides a number of methods that appear to be duplicates of [the built-in `Array` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_of_array_instances). Document them using the format in **Requirements** and specifically note the differences from the built-ins. Additionally, document the following, which we'll use a lot:
-
-* [`_.reject`](http://lodash.com/docs#reject)
-* [`_.where`](http://lodash.com/docs#where)
+Using the technique that I showed you in class, refactor your production code for **String Calculator** to use dictionary lookups. Make sure you've got tests for `"zero"` through `"ten"` for _both_ inputs and that _all_ the tests pass!
 
 ### API Gymnastics
 
-Update your `events.json` file from the API using `curl`, Postman, a Chrome tab... whatever. Then filter the results to provide the following data:
+So here we are again, learning to roll and flip. Don't hurt yourself:
 
 ```javascript
 function answer(){
   return {
-    'total': ... // `Number` of total entries
-    'types': [ ... ], // `Array` of `String`: unique type names across all entries
-    'dates': [ ... ], // `Array` of `String`: unique dates across all entries
-    'PushEvent': { // Results for "PushEvent"
-      'dates': [ ... ], // `Array` of `String`: unique dates across all entries
-      'total': ..., // `Number` of "PushEvent" entries
-      'perDay': { // breakdown by day...
-        'avg': ..., // `Number` average per day
-        'max': ..., // `Number` maximum per day
-        'min': ... // `Number` minimum per day
-      }
-    } // END PushEvent
-  }; // END return
+    'total': ...,    // How many total events did you fetch?
+    'PushEvent': {
+      'total': ...,  // How many total events of type `PushEvent` are there?
+      'perDay': ...  // On average, how many `PushEvent` entries per day?
+    },
+    'other': {
+      'total': ...,  // How many _other_ events are in the data?
+      'perDay': ...  // How many per day, on average?
+    }
+  };
 } // END answer
+```
+
+Output your answers and paste them as a comment into your _WIP Issue_.  Then, update your `events.json` file with fresh data and run your code again. Then start working on _this_ set of answers:
+
+```javascript
+function answer(){
+  return {
+    'total': ... // `Number` of unique entries
+    'types': [ ... ], // `Array` of `String`: unique type names across all entries
+    'EVENT_TYPE': { // Results for each `EVENT_TYPE`, e.g. `"PushEvent"`
+      'total': ..., // `Number` of entries of this type
+      'perDay': { // breakdown by day...
+        'avg': ..., // `Number`: average per day
+        'max': ..., // `Number`: maximum per day
+        'min': ..., // `Number`: minimum per day
+      },
+    },
+    // . . .
+  };
+}
 ```
 
 #### BEAST MODE
 
-There are more events in that data than just the `PushEvent` entries. Collect the same stats for each of the other types that you did for `PushEvent`.
-
-#### NIGHTMARE MODE
-
 The data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_
 
-### A Better Chessboard
+### Tools on... Tomorrow
 
-
-
-## Deliverables
-
-## Requirements
-
-### Tasks
-
-### Format for _Reading JavaScript: Lodash_
-
----
-### [`_.every`](http://lodash.com/docs#every)
-
-* _params:_
-* _returns:_
-* _differences:_ ???
----
+Tomorrow we'll review [the Lodash library](http://lodash.com) and cover our new tools.
 
 ## Additional Resources
 
