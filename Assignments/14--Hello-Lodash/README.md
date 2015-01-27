@@ -1,4 +1,4 @@
-# 14 -- Hello... Wait.
+# 14 -- Hello... Well, almost Lodash.
 
 ## Description
 
@@ -56,6 +56,23 @@ The data returned by `/users/:username/events/public` is [_paginated_](https://d
 
 Tomorrow we'll review [the Lodash library](http://lodash.com) and cover our new tools.
 
+## Deliverables
+
+* _WIP Issue:_ `14 -- Almost Lodash` with:
+  * link to your PR from your _WIP Branch_ to `master`
+  * comment with at least two `answer()` results from `scripts/gymnastics.js`
+* _WIP Branch:_ `feature/14--almost-lodash` with:
+  * `scripts/check-writing.js`
+    * using array lookups instead of `if`-`return` chains
+    * tests covering up to `20`
+  * `scripts/string-calculator.js`
+    * using dictionary lookups instead of `if`-`return` chains
+    * tests covering from `plus("zero", "zero")` to `plus("ten", "ten")`
+  * commits to `scripts/gymnastics.js`
+  * commits to `apis/github/users/USERNAME/events.json`
+* PR in `TIY-Assignments` from `feature/14--almost-lodash` to `master`
+  * with 2x :+1:'s from peers
+
 ## Additional Resources
 
 * [_Abstract Data Types_ on Wikipedia](http://en.wikipedia.org/wiki/Abstract_data_type)
@@ -63,4 +80,5 @@ Tomorrow we'll review [the Lodash library](http://lodash.com) and cover our new 
   * [_List_ data type on Wikipedia](http://en.wikipedia.org/wiki/List_%28abstract_data_type%29)
   * [_Queue_ data type on Wikipedia](http://en.wikipedia.org/wiki/Queue_(abstract_data_type))
   * [_Stack_ data type on Wikipedia](http://en.wikipedia.org/wiki/Stack_(abstract_data_type))
-
+* [_Data Science_ on Wikipedia](http://en.wikipedia.org/wiki/Data_science)
+* [_Getting Started with Data Science_ by Hilary Mason](http://www.hilarymason.com/blog/getting-started-with-data-science/)
