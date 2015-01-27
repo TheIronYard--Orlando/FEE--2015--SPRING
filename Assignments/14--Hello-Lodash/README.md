@@ -2,20 +2,53 @@
 
 ## Description
 
-* Reading JS: Lodash vs Array Methods
-  * [`_.slice`](http://lodash.com/docs#slice)
-  * [`_.every`](http://lodash.com/docs#every)
-  * [`_.some`](http://lodash.com/docs#some)
-  * [`_.filter`](http://lodash.com/docs#filter)
-  * [`_.reject`](http://lodash.com/docs#reject)
-  * [`_.where`](http://lodash.com/docs#where)
-  * etc
-* Coding Dojo: Check Writing + Array
-  * Rewrite production code, continue to 20
-* Coding Dojo: String Calculator + Dicts
-  * Refactor production code, use dict lookup
-* API Gymnastics
-* Chessboard + Lodash Templates
+### Coding Dojo
+
+If you haven't finished the **Check Writing** refactor with `Array` lookup from last night, complete that.If you _have_, delete your production code and start over. Then continue with that kata up to `20`. It should be significantly easier with lookups than it was with those `if`+`return` blocks. Now the only tedious part is writing the tests! How can we improve that?
+
+Using what we covered in class today about `Object` literals and dictionary lookups, _refactor_ your production code to use a dictionary instead of all those `if`+`returns`... If you don't have full test coverage up to `plus("ten", "ten")`, catch up!
+
+### Reading JavaScript: Lodash Edition
+
+[The Lodash library](http://lodash.com/) provides a number of methods that appear to be duplicates of [the built-in `Array` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_of_array_instances). Document them using the format in **Requirements** and specifically note the differences from the built-ins. Additionally, document the following, which we'll use a lot:
+
+* [`_.reject`](http://lodash.com/docs#reject)
+* [`_.where`](http://lodash.com/docs#where)
+
+### API Gymnastics
+
+Update your `events.json` file from the API using `curl`, Postman, a Chrome tab... whatever. Then filter the results to provide the following data:
+
+```javascript
+function answer(){
+  return {
+    'total': ... // `Number` of total entries
+    'types': [ ... ], // `Array` of `String`: unique type names across all entries
+    'dates': [ ... ], // `Array` of `String`: unique dates across all entries
+    'PushEvent': { // Results for "PushEvent"
+      'dates': [ ... ], // `Array` of `String`: unique dates across all entries
+      'total': ..., // `Number` of "PushEvent" entries
+      'perDay': { // breakdown by day...
+        'avg': ..., // `Number` average per day
+        'max': ..., // `Number` maximum per day
+        'min': ... // `Number` minimum per day
+      }
+    } // END PushEvent
+  }; // END return
+} // END answer
+```
+
+#### BEAST MODE
+
+There are more events in that data than just the `PushEvent` entries. Collect the same stats for each of the other types that you did for `PushEvent`.
+
+#### NIGHTMARE MODE
+
+The data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_
+
+### A Better Chessboard
+
+
 
 ## Deliverables
 
@@ -23,31 +56,15 @@
 
 ### Tasks
 
-### API Gymnastics
+### Format for _Reading JavaScript: Lodash_
 
-update `events.json`
-```javascript
-function answer(){
-  return {
-    'total': ... // Number of entries
-    'types': [ ... ], // Array of String unique type names in all entries
-    'PushEvent': { // Results for "PushEvent"
-      'total': ..., // Number of "PushEvent" entries
-      'perDay': { // breakdown by day...
-        'avg': ..., // Number average per day
-        'max': ..., // Number maximum per day
-        'min': ..., // Number minimum per day
-      },
-    },
-    // BEAST MODE: Calculate stats for each event type as per "PushEvent"
-    'EVENT-TYPE': { ... }
-  };
-}
-```
+---
+### [`_.every`](http://lodash.com/docs#every)
 
-#### BEAST MODE
-
-The data returned by `/users/:username/events/public` is [_paginated_](https://developer.github.com/v3/#pagination) by the API. How much data can you fetch? _Gotta fetch 'em all!_
+* _params:_
+* _returns:_
+* _differences:_ ???
+---
 
 ## Additional Resources
 
