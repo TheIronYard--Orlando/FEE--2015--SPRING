@@ -39,24 +39,5 @@ function plus(A, B){
     "zero": 0,
   };
   
-  if ( numbers[B] !== undefined ){
-    return numbers[B];
-  }
-  
-  if ( B == "four" ){
-    return 4;
-  }
-  if ( B == "three" ){
-    return 3;
-  }
-  
-  if ( B == "two" ){
-    return 2;
-  }
-
-  if ( B == "one" ){
-    return 1;
-  }
-
-  return 0;
+  return numbers[B];
 } // END plus
