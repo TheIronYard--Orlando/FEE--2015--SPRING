@@ -1,0 +1,23 @@
+{
+  "name": "fee--2015--spring",
+  "version": "1.0.0",
+  "description": "Class repository for FEE 2015 Spring at The Iron Yard Orlando",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theironyard--orlando/fee--2015--spring.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/theironyard--orlando/fee--2015--spring/issues"
+  },
+  "homepage": "https://github.com/theironyard--orlando/fee--2015--spring"
+}
