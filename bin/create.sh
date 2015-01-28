@@ -6,12 +6,12 @@ if [[ $# -lt 1 ]]; then
 usage: create.sh XX--Assignment-Name [ ISO-DATE ]
 
   create an empty `README.md` file in `Assignment/XX--Assignment-Name/` and in
-  `Notes/ISO-DATE/` using today's date if none is specified.
+  `Notes/ISO-DATE/` using tomorrow's date if none is specified.
 USAGE
 
   exit 1
 fi
 
-for d in Assignments/$1 Notes/${2:-$(gdate -d today -I)}; do
+for d in Assignments/$1 Notes/${2:-$(gdate -d tomorrow -I)}; do
   ginstall -vCD /dev/null $d/README.md
 done && git status -s
