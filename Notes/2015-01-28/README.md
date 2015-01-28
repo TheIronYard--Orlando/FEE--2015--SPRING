@@ -1,6 +1,6 @@
 Assignment 15: Hello Lodash... Again
 
-* **API Gymnastics** ~30m
+* [ ] **API Gymnastics** ~30m
 * [ ] **Looping over Lists and Dictionaries**
   * `while` + (`pop` | `shift`)
   * (`while` | `for`) + `index`
