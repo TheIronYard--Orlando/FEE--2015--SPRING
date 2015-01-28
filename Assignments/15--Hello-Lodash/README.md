@@ -98,6 +98,7 @@ it('should have a solution for 100', function(){
 ### Format for _Reading JavaScript: Lodash_
 
 ---
+
 ### [`_.every`](http://lodash.com/docs#every)
 
 * _params:_
@@ -114,6 +115,7 @@ it('should have a solution for 100', function(){
 * _differences:_
   * not just for `Array`; can be run with `Object` and `String` as `collection`
   * `predicate` can be `Object` or `String`...?
+
 ---
 
 ### `print(board)` for _A Better Chessboard_
