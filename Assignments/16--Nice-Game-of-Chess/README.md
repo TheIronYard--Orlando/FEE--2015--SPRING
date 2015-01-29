@@ -65,7 +65,7 @@ Turn your `print(board)` function into a `toString(board)` function that returns
 
 Make buttons across the bottom, side, or top that will increment the board through moves, which are stored as elements in an `Array`.
 
-After each move, update the `#chessboard`. Start by just "refreshing" the `outerHTML` property. Yuck. What about just changing the classes on each cell instead?
+After each move, update the `#chessboard`. Start by just "refreshing" the `outerHTML` property. Yuck. What about just changing the classes on each cell instead? Maybe you need a `move()` function
 
 #### Add buttons for "rewind" and "fast-forward"...
 
@@ -74,4 +74,90 @@ On "rewind", reset the JavaScript `board` _and_ the `#chessboard` back to the st
 #### BEAST MODE
 
 Add a "play" button that will slowly step through each move. **Hint:** Check out the [`WindowTimers` API](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers) for delaying execution of a function. Add a "pause" button that will stop the automatic playback.
+
+## Notes
+
+How about a nice example:
+
+```html
+<html>
+  <body>
+    <table id="chessboard-kinda">
+      <thead>
+        <tr>
+          <td></td>
+          <th> a </td>
+          <th> b </td>
+          <th> c </td>
+          <th> d </td>
+          <th> e </td>
+          <th> f </td>
+          <th> g </td>
+          <th> h </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th> 1 </th>
+          <td class="piece"> R </td>
+          <td class="piece"> N </td>
+          <td class="piece"> B </td>
+          <td class="piece"> Q </td>
+          <td class="piece"> K </td>
+          <td class="piece"> B </td>
+          <td class="piece"> N </td>
+          <td class="piece"> R </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script>
+
+      var table = document.body.children[0],
+          thead = document.body.children[0].children[0],
+          tbody = document.body.children[0].children[1];
+
+      console.assert(table.tagName == 'TABLE');
+      console.assert(thead.tagName == 'THEAD');
+      console.assert(tbody.tagName == 'TBODY');
+
+      var chessboard = document.getElementById('chessboard-kinda');
+
+      console.assert(chessboard === table);
+      // Shouldn't these be the same?
+
+      // Getting all the rows...
+      //
+      var rows = document.getElementsByTagName('tr');
+      // All the `<tr>` tags...
+
+      console.assert(rows.length === 2);
+      // 1 `<tr>` in `<thead>` + 1 `<tr>` in `<tbody>`
+
+      // Getting the row that is a child of `<tbody>`...
+      var bodyRow = _.find(rows, { 'parentElement': tbody });
+
+      console.assert(bodyRow === tbody.firstChild);
+      // Those should be the same, too, right?
+
+      // Getting some elements via `getElementByClassName`
+      var cells = document.getElementsByClassName('piece');
+
+      console.assert(cells.length === 9);
+      // 1 `<td>` in `<thead>` + 8 `<tr>` in `<tbody>`
+
+      // Getting the `<td>`'s that are children of `<tbody>`
+      var pieces = _.filter(cells, { 'parentElement': bodyRow });
+
+      console.assert(pieces.length === 8);
+    </script>
+  </body>
+</html>
+```
+
+## Additional Resources
+
+* [_What is a Leap Year?_ on YouTube](https://www.youtube.com/watch?v=56zlm9qhVGc)
+* [Date objects on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+* [Documentation for Moment.js](http://momentjs.com/docs/)
 
