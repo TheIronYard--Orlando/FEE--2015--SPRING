@@ -1,0 +1,3367 @@
+[
+  {
+    "id": "2544967071",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/192",
+        "id": 55833772,
+        "number": 192,
+        "title": "Attendance for 2015-01-29",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Attendance",
+            "name": "Attendance",
+            "color": "c7def8"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-28T23:40:16Z",
+        "updated_at": "2015-01-29T14:20:52Z",
+        "closed_at": "2015-01-29T14:20:52Z",
+        "body": "* [x] johnalxndr --  John Alexander\r\n* [x] jgarcia99 --  Josuel C Garcia\r\n* [x] sak55 --  Sam Kauffman\r\n* [x] eklemen --  Evan Klemen\r\n* [x] jrutishauser --  Jon Rutishauser\r\n* [x] mfees --  Maddie Fees\r\n* [x] carolinapowers --  Carolina Powers\r\n* [x] TaylorFoster90 --  Taylor Foster\r\n* [x] adamkarb --  Adam Karbiener\r\n* [x] GarrettGraham --  Garrett Lee Graham Anderson\r\n* [x] jaredstevick --  Jared Stevick\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-29T14:20:52Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2544940039",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 193,
+      "pull_request": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193",
+        "id": 28281044,
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/193",
+        "diff_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/193.diff",
+        "patch_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/193.patch",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/193",
+        "number": 193,
+        "state": "open",
+        "locked": false,
+        "title": "Assignment 16: How About a Nice Game of Chess",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* **Homework Review**\n* **JavaScript in the Browser**\n  * `<script>` tags\n  * browser JS console\n  * `window`, `document` and the DOM\n  * `document.head`, `document.body`\n  * `Element`, `Element.innerHTML`, `Element.outerHTML`, `Element.children`\n* **O Lodash, Where Are Thou?**\n  * `<script src=\"URL\">` and beyond\n  * `_.forEach` to the rescue!\n* **Chessboard Redux**\n  * `document.getElementById`: `Element`\n  * `document.getElementsByClassName`: `NodeList`\n  * `Element.onclick` + callbacks\n  * `Array` of `Function`...!?\n  * `Element.className` vs [`Element.classList`](https://developer.mozilla.org/en-US/docs/Web/API/Element.classList)\n* **Assignment Review**\n  * Clear Expectations\n    * Deliverables\n    * Process\n    * Performance\n  * Planning!",
+        "created_at": "2015-01-29T14:09:09Z",
+        "updated_at": "2015-01-29T14:09:09Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193/commits",
+        "review_comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193/comments",
+        "review_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/193/comments",
+        "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/a5f4c236aedda18f168b9eef7543f2f808fc64eb",
+        "head": {
+          "label": "TheIronYard--Orlando:feature/16--Nice-Game-of-Chess",
+          "ref": "feature/16--Nice-Game-of-Chess",
+          "sha": "a5f4c236aedda18f168b9eef7543f2f808fc64eb",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-28T21:29:28Z",
+            "pushed_at": "2015-01-29T14:08:57Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 62,
+            "forks": 6,
+            "open_issues": 62,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "TheIronYard--Orlando:master",
+          "ref": "master",
+          "sha": "518205bc02bc5ddfd457a7dbafc33d863244f3b2",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-28T21:29:28Z",
+            "pushed_at": "2015-01-29T14:08:57Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 62,
+            "forks": 6,
+            "open_issues": 62,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193"
+          },
+          "html": {
+            "href": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/193"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/193"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/193/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/193/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/a5f4c236aedda18f168b9eef7543f2f808fc64eb"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 101,
+        "deletions": 0,
+        "changed_files": 2
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-29T14:09:09Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2544939542",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 559675421,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/16--Nice-Game-of-Chess",
+      "head": "a5f4c236aedda18f168b9eef7543f2f808fc64eb",
+      "before": "518205bc02bc5ddfd457a7dbafc33d863244f3b2",
+      "commits": [
+        {
+          "sha": "a5f4c236aedda18f168b9eef7543f2f808fc64eb",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Needs more commits...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/a5f4c236aedda18f168b9eef7543f2f808fc64eb"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-29T14:08:57Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2544934810",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/16--Nice-Game-of-Chess",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-29T14:06:52Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2543775912",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 27726429,
+      "name": "thedonz/Shinobi-Training",
+      "url": "https://api.github.com/repos/thedonz/Shinobi-Training"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/4",
+        "labels_url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/4/labels{/name}",
+        "comments_url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/4/comments",
+        "events_url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/4/events",
+        "html_url": "https://github.com/thedonz/Shinobi-Training/pull/4",
+        "id": 54114014,
+        "number": 4,
+        "title": "Starting over again",
+        "user": {
+          "login": "thedonz",
+          "id": 8824985,
+          "avatar_url": "https://avatars.githubusercontent.com/u/8824985?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/thedonz",
+          "html_url": "https://github.com/thedonz",
+          "followers_url": "https://api.github.com/users/thedonz/followers",
+          "following_url": "https://api.github.com/users/thedonz/following{/other_user}",
+          "gists_url": "https://api.github.com/users/thedonz/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/thedonz/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/thedonz/subscriptions",
+          "organizations_url": "https://api.github.com/users/thedonz/orgs",
+          "repos_url": "https://api.github.com/users/thedonz/repos",
+          "events_url": "https://api.github.com/users/thedonz/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/thedonz/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-01-12T22:07:53Z",
+        "updated_at": "2015-01-29T01:45:39Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedonz/Shinobi-Training/pulls/4",
+          "html_url": "https://github.com/thedonz/Shinobi-Training/pull/4",
+          "diff_url": "https://github.com/thedonz/Shinobi-Training/pull/4.diff",
+          "patch_url": "https://github.com/thedonz/Shinobi-Training/pull/4.patch"
+        },
+        "body": "Starting assignments over again for TRAINING! :camel: "
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/comments/71954369",
+        "html_url": "https://github.com/thedonz/Shinobi-Training/pull/4#issuecomment-71954369",
+        "issue_url": "https://api.github.com/repos/thedonz/Shinobi-Training/issues/4",
+        "id": 71954369,
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-01-29T01:45:39Z",
+        "updated_at": "2015-01-29T01:45:39Z",
+        "body": "Like where this is headed already. Looking forward to the breakdown of those big tasks. Checkpoints can be helpful.  See of the assignments from the current class for some ideas. "
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-29T01:45:41Z"
+  },
+  {
+    "id": "2543559327",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/192/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/192",
+        "id": 55833772,
+        "number": 192,
+        "title": "Attendance for 2015-01-29",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Attendance",
+            "name": "Attendance",
+            "color": "c7def8"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-28T23:40:16Z",
+        "updated_at": "2015-01-28T23:40:16Z",
+        "closed_at": null,
+        "body": "* [ ] johnalxndr --  John Alexander\n* [ ] jgarcia99 --  Josuel C Garcia\n* [ ] sak55 --  Sam Kauffman\n* [ ] eklemen --  Evan Klemen\n* [ ] jrutishauser --  Jon Rutishauser\n* [ ] mfees --  Maddie Fees\n* [ ] carolinapowers --  Carolina Powers\n* [ ] TaylorFoster90 --  Taylor Foster\n* [ ] adamkarb --  Adam Karbiener\n* [ ] GarrettGraham --  Garrett Lee Graham Anderson\n* [ ] jaredstevick --  Jared Stevick\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T23:40:17Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2543240785",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558981650,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "518205bc02bc5ddfd457a7dbafc33d863244f3b2",
+      "before": "c931144d7ffc145004ace08c153d43ff6a68dc34",
+      "commits": [
+        {
+          "sha": "518205bc02bc5ddfd457a7dbafc33d863244f3b2",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Using tomorrow's date by default makes _much_ more sense...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/518205bc02bc5ddfd457a7dbafc33d863244f3b2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T21:29:28Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542916764",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558853758,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "c931144d7ffc145004ace08c153d43ff6a68dc34",
+      "before": "265a6265c9f806af1f5abf6b98e77d0f42480cd1",
+      "commits": [
+        {
+          "sha": "c931144d7ffc145004ace08c153d43ff6a68dc34",
+          "author": {
+            "email": "al-the-x@users.noreply.github.com",
+            "name": "David Rogers"
+          },
+          "message": "Just a little typo today...:wq",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/c931144d7ffc145004ace08c153d43ff6a68dc34"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T19:22:55Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542915148",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/15--Hello-Lodash-Again",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-28T19:22:20Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542914198",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558852799,
+      "size": 7,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "265a6265c9f806af1f5abf6b98e77d0f42480cd1",
+      "before": "e67cf74ccc1d37d3cf21f6d9b12dff1dd683d7a5",
+      "commits": [
+        {
+          "sha": "b779a09b0c4edd2cdbb8ce26ad816fbd54e0cd39",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Edit assignments quickly...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/b779a09b0c4edd2cdbb8ce26ad816fbd54e0cd39"
+        },
+        {
+          "sha": "c10b37c75cb0060896bb037ee07e5ce02e25258b",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Prep for the train... Just edit locally this time.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/c10b37c75cb0060896bb037ee07e5ce02e25258b"
+        },
+        {
+          "sha": "0493928e1ae8e677d40f4e7e1d98ece6bb8e2142",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Filling out the assignment...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/0493928e1ae8e677d40f4e7e1d98ece6bb8e2142"
+        },
+        {
+          "sha": "0572f15dc545aefb6015dfe9e483b30ce21fa3be",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Working on Gymnastics!",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/0572f15dc545aefb6015dfe9e483b30ce21fa3be"
+        },
+        {
+          "sha": "507de68f7d3f5276706d1e07c94644e34db9747b",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Adding lodash...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/507de68f7d3f5276706d1e07c94644e34db9747b"
+        },
+        {
+          "sha": "b3a56e7fcc695232af88bc48789f8579901367f9",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Example of using lodash...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/b3a56e7fcc695232af88bc48789f8579901367f9"
+        },
+        {
+          "sha": "265a6265c9f806af1f5abf6b98e77d0f42480cd1",
+          "author": {
+            "email": "al-the-x@users.noreply.github.com",
+            "name": "David Rogers"
+          },
+          "message": "Merge pull request #179 from TheIronYard--Orlando/feature/15--Hello-Lodash-Again\n\nAssignment 15: Hello Lodash... Again",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/265a6265c9f806af1f5abf6b98e77d0f42480cd1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T19:21:59Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542914182",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 179,
+      "pull_request": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179",
+        "id": 28167552,
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179",
+        "diff_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179.diff",
+        "patch_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179.patch",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179",
+        "number": 179,
+        "state": "closed",
+        "locked": false,
+        "title": "Assignment 15: Hello Lodash... Again",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* [x] **API Gymnastics** ~30m\r\n* [x] **Looping over Lists and Dictionaries**\r\n  * `while` + (`pop` | `shift`)\r\n  * (`while` | `for`) + `index`\r\n  * `Array.prototype.forEach`\r\n  * `for`-`in` is ugly...\r\n* [x] **Lodash**\r\n  * `npm install lodash` (no `-g`)\r\n    * `ls node_modules/`\r\n    * `.gitignore` vs `git ignore` via `brew install git-extras`\r\n  * `var _ = require('lodash')`\r\n    * [`_.forEach`](http://lodash.com/docs#forEach)\r\n    * [`_.template`](http://lodash.com/docs#template)\r\n* **API Gymnastics** Round 2",
+        "created_at": "2015-01-28T04:22:16Z",
+        "updated_at": "2015-01-28T19:21:59Z",
+        "closed_at": "2015-01-28T19:21:59Z",
+        "merged_at": "2015-01-28T19:21:59Z",
+        "merge_commit_sha": "6ad1c90451ec1f70825031afb2c4bef3d826a62a",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/commits",
+        "review_comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/comments",
+        "review_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179/comments",
+        "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/b3a56e7fcc695232af88bc48789f8579901367f9",
+        "head": {
+          "label": "TheIronYard--Orlando:feature/15--Hello-Lodash-Again",
+          "ref": "feature/15--Hello-Lodash-Again",
+          "sha": "b3a56e7fcc695232af88bc48789f8579901367f9",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T20:24:25Z",
+            "pushed_at": "2015-01-28T19:21:59Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 52,
+            "forks": 6,
+            "open_issues": 52,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "TheIronYard--Orlando:master",
+          "ref": "master",
+          "sha": "e67cf74ccc1d37d3cf21f6d9b12dff1dd683d7a5",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T20:24:25Z",
+            "pushed_at": "2015-01-28T19:21:59Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 52,
+            "forks": 6,
+            "open_issues": 52,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179"
+          },
+          "html": {
+            "href": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/b3a56e7fcc695232af88bc48789f8579901367f9"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 6,
+        "additions": 5283,
+        "deletions": 20,
+        "changed_files": 8
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T19:21:59Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542910955",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558851542,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/15--Hello-Lodash-Again",
+      "head": "b3a56e7fcc695232af88bc48789f8579901367f9",
+      "before": "507de68f7d3f5276706d1e07c94644e34db9747b",
+      "commits": [
+        {
+          "sha": "b3a56e7fcc695232af88bc48789f8579901367f9",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Example of using lodash...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/b3a56e7fcc695232af88bc48789f8579901367f9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T19:20:47Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542639664",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558744849,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/15--Hello-Lodash-Again",
+      "head": "507de68f7d3f5276706d1e07c94644e34db9747b",
+      "before": "0572f15dc545aefb6015dfe9e483b30ce21fa3be",
+      "commits": [
+        {
+          "sha": "507de68f7d3f5276706d1e07c94644e34db9747b",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Adding lodash...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/507de68f7d3f5276706d1e07c94644e34db9747b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T17:36:50Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542377048",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558639731,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/15--Hello-Lodash-Again",
+      "head": "0572f15dc545aefb6015dfe9e483b30ce21fa3be",
+      "before": "0493928e1ae8e677d40f4e7e1d98ece6bb8e2142",
+      "commits": [
+        {
+          "sha": "0572f15dc545aefb6015dfe9e483b30ce21fa3be",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Working on Gymnastics!",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/0572f15dc545aefb6015dfe9e483b30ce21fa3be"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T16:04:42Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2542055150",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 558506579,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/15--Hello-Lodash-Again",
+      "head": "0493928e1ae8e677d40f4e7e1d98ece6bb8e2142",
+      "before": "c10b37c75cb0060896bb037ee07e5ce02e25258b",
+      "commits": [
+        {
+          "sha": "0493928e1ae8e677d40f4e7e1d98ece6bb8e2142",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Filling out the assignment...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/0493928e1ae8e677d40f4e7e1d98ece6bb8e2142"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-28T14:03:54Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2541116605",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 179,
+      "pull_request": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179",
+        "id": 28167552,
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179",
+        "diff_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179.diff",
+        "patch_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179.patch",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179",
+        "number": 179,
+        "state": "open",
+        "locked": false,
+        "title": "Assignment 15: Hello Lodash... Again",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* **API Gymnastics** ~30m\n* [ ] **Looping over Lists and Dictionaries**\n  * `while` + (`pop` | `shift`)\n  * (`while` | `for`) + `index`\n  * `Array.prototype.forEach`\n  * `for`-`in` is ugly...\n* [ ] **Lodash**\n  * `npm install lodash` (no `-g`)\n    * `ls node_modules/`\n    * `.gitignore` vs `git ignore` via `brew install git-extras`\n  * `var _ = require('lodash')`\n    * [`_.forEach`](http://lodash.com/docs#forEach)\n    * [`_.template`](http://lodash.com/docs#template)\n* **API Gymnastics** Round 2",
+        "created_at": "2015-01-28T04:22:16Z",
+        "updated_at": "2015-01-28T04:22:16Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/commits",
+        "review_comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/comments",
+        "review_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179/comments",
+        "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/c10b37c75cb0060896bb037ee07e5ce02e25258b",
+        "head": {
+          "label": "TheIronYard--Orlando:feature/15--Hello-Lodash-Again",
+          "ref": "feature/15--Hello-Lodash-Again",
+          "sha": "c10b37c75cb0060896bb037ee07e5ce02e25258b",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T20:24:25Z",
+            "pushed_at": "2015-01-28T04:21:48Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 49,
+            "forks": 6,
+            "open_issues": 49,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "TheIronYard--Orlando:master",
+          "ref": "master",
+          "sha": "e67cf74ccc1d37d3cf21f6d9b12dff1dd683d7a5",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T20:24:25Z",
+            "pushed_at": "2015-01-28T04:21:48Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 49,
+            "forks": 6,
+            "open_issues": 49,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179"
+          },
+          "html": {
+            "href": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/179"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/179/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/179/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/c10b37c75cb0060896bb037ee07e5ce02e25258b"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 2,
+        "additions": 65,
+        "deletions": 22,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-28T04:22:16Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2541116119",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/15--Hello-Lodash-Again",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-28T04:21:48Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540701358",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/176",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/176/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/176/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/176/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/176",
+        "id": 55692326,
+        "number": 176,
+        "title": "Attendance for 2015-01-28",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Attendance",
+            "name": "Attendance",
+            "color": "c7def8"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-27T23:40:35Z",
+        "updated_at": "2015-01-27T23:40:35Z",
+        "closed_at": null,
+        "body": "* [ ] johnalxndr --  John Alexander\n* [ ] jgarcia99 --  Josuel C Garcia\n* [ ] sak55 --  Sam Kauffman\n* [ ] eklemen --  Evan Klemen\n* [ ] jrutishauser --  Jon Rutishauser\n* [ ] mfees --  Maddie Fees\n* [ ] carolinapowers --  Carolina Powers\n* [ ] TaylorFoster90 --  Taylor Foster\n* [ ] adamkarb --  Adam Karbiener\n* [ ] GarrettGraham --  Garrett Lee Graham Anderson\n* [ ] jaredstevick --  Jared Stevick\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T23:40:35Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540236455",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/14--Hello-Lodash",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:24:31Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540236217",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557755723,
+      "size": 22,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "e67cf74ccc1d37d3cf21f6d9b12dff1dd683d7a5",
+      "before": "0adaef72a4506d0486ea22de97266a1d0052479b",
+      "commits": [
+        {
+          "sha": "e052776443efa0a4d204a8dc743b1f7f6f91badd",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Simple utility to create new assignments...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/e052776443efa0a4d204a8dc743b1f7f6f91badd"
+        },
+        {
+          "sha": "95da1e4585a27d8d47bf419075a7aa134f98ca82",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Flag in the sand...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/95da1e4585a27d8d47bf419075a7aa134f98ca82"
+        },
+        {
+          "sha": "f76423d2b05f5fe1c180816dd864726f63aa2e9c",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Scaffolding for the train ride in...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/f76423d2b05f5fe1c180816dd864726f63aa2e9c"
+        },
+        {
+          "sha": "77a38b01366fb90c8ae3541e20cceea671cd8a3f",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "A little taste of API Gymnastics...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/77a38b01366fb90c8ae3541e20cceea671cd8a3f"
+        },
+        {
+          "sha": "4e8eab6ef24aa501fab963a7aa91af07e068d768",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Starting point...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/4e8eab6ef24aa501fab963a7aa91af07e068d768"
+        },
+        {
+          "sha": "6c2f1df05a9d8786e2d20eb45f86660d96f2ccad",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6c2f1df05a9d8786e2d20eb45f86660d96f2ccad"
+        },
+        {
+          "sha": "e2a0c3683722db78dde7519c94a37aeb2d1485ce",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/e2a0c3683722db78dde7519c94a37aeb2d1485ce"
+        },
+        {
+          "sha": "b15dc5a37dacb4c080e5b3eb1ff799db7513da12",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/b15dc5a37dacb4c080e5b3eb1ff799db7513da12"
+        },
+        {
+          "sha": "f4a63ee834b91564f7066cd3827c82f9c7e17635",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/f4a63ee834b91564f7066cd3827c82f9c7e17635"
+        },
+        {
+          "sha": "2269bfcbaad3d51e563be05512f029c77ac47946",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/2269bfcbaad3d51e563be05512f029c77ac47946"
+        },
+        {
+          "sha": "d375a100a42f99ab86643d6c0bbf74b65c1e2b73",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/d375a100a42f99ab86643d6c0bbf74b65c1e2b73"
+        },
+        {
+          "sha": "bb4d38d6228479ba6a21f83e9e5c5fc9c174c33e",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/bb4d38d6228479ba6a21f83e9e5c5fc9c174c33e"
+        },
+        {
+          "sha": "2450a5668918764bef3769da9ec728c5ff97f3c8",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/2450a5668918764bef3769da9ec728c5ff97f3c8"
+        },
+        {
+          "sha": "3e1c03c962279b0661fddf75f1f5b1b753ee2eac",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/3e1c03c962279b0661fddf75f1f5b1b753ee2eac"
+        },
+        {
+          "sha": "6f9bac28450c603daeda43d6552aa0a7a6dd67de",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Intentional commit...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6f9bac28450c603daeda43d6552aa0a7a6dd67de"
+        },
+        {
+          "sha": "428b131bc52fff6fcc98da529bab8d303c077c65",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "More gymnastics with `forEach`...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/428b131bc52fff6fcc98da529bab8d303c077c65"
+        },
+        {
+          "sha": "7d184b100fdafd157c7abfe7e1398d4983a80aa5",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Doing it differently for @johnalxndr\n\nThanks for the great question.",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/7d184b100fdafd157c7abfe7e1398d4983a80aa5"
+        },
+        {
+          "sha": "abf8a0db25702536f19d20d89bc9ca0148708b8b",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Stashed changes applied to tomorrow instead...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/abf8a0db25702536f19d20d89bc9ca0148708b8b"
+        },
+        {
+          "sha": "6c042cbdb41a24104171dbbd31c5892637e877b7",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Punting some of this until tomorrow...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6c042cbdb41a24104171dbbd31c5892637e877b7"
+        },
+        {
+          "sha": "14ee20a9a0a2724c91c64716193213381c80b06d",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Differentiating the two assignments...",
+          "distinct": false,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/14ee20a9a0a2724c91c64716193213381c80b06d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:24:25Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540236195",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 167,
+      "pull_request": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167",
+        "id": 28084566,
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167",
+        "diff_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167.diff",
+        "patch_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167.patch",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167",
+        "number": 167,
+        "state": "closed",
+        "locked": false,
+        "title": "Assignment 14: Hello Lodash",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* ~~**API Gymnastics** ~10m~~\r\n  * update `events.json`\r\n  * run `answer()` again\r\n  * add a comment with results\r\n* [x] **Lists and Dictionaries** (part 2)\r\n  * **Arrays as Lists**\r\n  * **Objects as Dictionaries**\r\n    * [x] How do I write it?\r\n    * [x] What is a dictionary?\r\n      * keys, values, and confusing operators\r\n    * [x] What can I use it for?\r\n      * refactoring from sequential comparison to dictionary lookup\r\n* [x] **Looping over Lists and Dictionaries**\r\n  * `while` + (`pop` | `shift`)\r\n  * (`while` | `for`) + `index`\r\n  * `Array.prototype.forEach`\r\n  * `for`-`in` is ugly...\r\n* [ ] **Lodash**\r\n  * `npm install lodash` (no `-g`)\r\n    * `ls node_modules/`\r\n    * `.gitignore` vs `git ignore` via `brew install git-extras`\r\n  * `var _ = require('lodash')`\r\n    * [`_.forEach`](http://lodash.com/docs#forEach)\r\n    * [`_.template`](http://lodash.com/docs#template)",
+        "created_at": "2015-01-27T05:19:01Z",
+        "updated_at": "2015-01-27T20:24:24Z",
+        "closed_at": "2015-01-27T20:24:24Z",
+        "merged_at": "2015-01-27T20:24:24Z",
+        "merge_commit_sha": "00d0a171ae42cf05d453331a98a44d54f840a9f2",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/commits",
+        "review_comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/comments",
+        "review_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167/comments",
+        "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/866b628e5a81e39472544a3d4041ef1d3c72f89d",
+        "head": {
+          "label": "TheIronYard--Orlando:feature/14--Hello-Lodash",
+          "ref": "feature/14--Hello-Lodash",
+          "sha": "866b628e5a81e39472544a3d4041ef1d3c72f89d",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T02:56:23Z",
+            "pushed_at": "2015-01-27T20:24:24Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 38,
+            "forks": 6,
+            "open_issues": 38,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "TheIronYard--Orlando:master",
+          "ref": "master",
+          "sha": "0adaef72a4506d0486ea22de97266a1d0052479b",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T02:56:23Z",
+            "pushed_at": "2015-01-27T20:24:24Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 38,
+            "forks": 6,
+            "open_issues": 38,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167"
+          },
+          "html": {
+            "href": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/866b628e5a81e39472544a3d4041ef1d3c72f89d"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 21,
+        "additions": 7993,
+        "deletions": 0,
+        "changed_files": 7
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:24:24Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540234883",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557755181,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--Hello-Lodash",
+      "head": "866b628e5a81e39472544a3d4041ef1d3c72f89d",
+      "before": "14ee20a9a0a2724c91c64716193213381c80b06d",
+      "commits": [
+        {
+          "sha": "866b628e5a81e39472544a3d4041ef1d3c72f89d",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Finalizing assignment 14",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/866b628e5a81e39472544a3d4041ef1d3c72f89d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:23:50Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2540233792",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557754758,
+      "size": 3,
+      "distinct_size": 3,
+      "ref": "refs/heads/feature/14--Hello-Lodash",
+      "head": "14ee20a9a0a2724c91c64716193213381c80b06d",
+      "before": "7d184b100fdafd157c7abfe7e1398d4983a80aa5",
+      "commits": [
+        {
+          "sha": "abf8a0db25702536f19d20d89bc9ca0148708b8b",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Stashed changes applied to tomorrow instead...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/abf8a0db25702536f19d20d89bc9ca0148708b8b"
+        },
+        {
+          "sha": "6c042cbdb41a24104171dbbd31c5892637e877b7",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Punting some of this until tomorrow...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6c042cbdb41a24104171dbbd31c5892637e877b7"
+        },
+        {
+          "sha": "14ee20a9a0a2724c91c64716193213381c80b06d",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Differentiating the two assignments...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/14ee20a9a0a2724c91c64716193213381c80b06d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T20:23:22Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2539970858",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557650975,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--Hello-Lodash",
+      "head": "7d184b100fdafd157c7abfe7e1398d4983a80aa5",
+      "before": "428b131bc52fff6fcc98da529bab8d303c077c65",
+      "commits": [
+        {
+          "sha": "7d184b100fdafd157c7abfe7e1398d4983a80aa5",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Doing it differently for @johnalxndr\n\nThanks for the great question.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/7d184b100fdafd157c7abfe7e1398d4983a80aa5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:37:57Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2539968505",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557650046,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature/14--Hello-Lodash",
+      "head": "428b131bc52fff6fcc98da529bab8d303c077c65",
+      "before": "6f9bac28450c603daeda43d6552aa0a7a6dd67de",
+      "commits": [
+        {
+          "sha": "428b131bc52fff6fcc98da529bab8d303c077c65",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "More gymnastics with `forEach`...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/428b131bc52fff6fcc98da529bab8d303c077c65"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T18:36:57Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2539644801",
+    "type": "PushEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "push_id": 557520417,
+      "size": 12,
+      "distinct_size": 12,
+      "ref": "refs/heads/feature/14--Hello-Lodash",
+      "head": "6f9bac28450c603daeda43d6552aa0a7a6dd67de",
+      "before": "f76423d2b05f5fe1c180816dd864726f63aa2e9c",
+      "commits": [
+        {
+          "sha": "77a38b01366fb90c8ae3541e20cceea671cd8a3f",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "A little taste of API Gymnastics...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/77a38b01366fb90c8ae3541e20cceea671cd8a3f"
+        },
+        {
+          "sha": "4e8eab6ef24aa501fab963a7aa91af07e068d768",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Starting point...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/4e8eab6ef24aa501fab963a7aa91af07e068d768"
+        },
+        {
+          "sha": "6c2f1df05a9d8786e2d20eb45f86660d96f2ccad",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6c2f1df05a9d8786e2d20eb45f86660d96f2ccad"
+        },
+        {
+          "sha": "e2a0c3683722db78dde7519c94a37aeb2d1485ce",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/e2a0c3683722db78dde7519c94a37aeb2d1485ce"
+        },
+        {
+          "sha": "b15dc5a37dacb4c080e5b3eb1ff799db7513da12",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/b15dc5a37dacb4c080e5b3eb1ff799db7513da12"
+        },
+        {
+          "sha": "f4a63ee834b91564f7066cd3827c82f9c7e17635",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/f4a63ee834b91564f7066cd3827c82f9c7e17635"
+        },
+        {
+          "sha": "2269bfcbaad3d51e563be05512f029c77ac47946",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/2269bfcbaad3d51e563be05512f029c77ac47946"
+        },
+        {
+          "sha": "d375a100a42f99ab86643d6c0bbf74b65c1e2b73",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/d375a100a42f99ab86643d6c0bbf74b65c1e2b73"
+        },
+        {
+          "sha": "bb4d38d6228479ba6a21f83e9e5c5fc9c174c33e",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/bb4d38d6228479ba6a21f83e9e5c5fc9c174c33e"
+        },
+        {
+          "sha": "2450a5668918764bef3769da9ec728c5ff97f3c8",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/2450a5668918764bef3769da9ec728c5ff97f3c8"
+        },
+        {
+          "sha": "3e1c03c962279b0661fddf75f1f5b1b753ee2eac",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Incremental commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/3e1c03c962279b0661fddf75f1f5b1b753ee2eac"
+        },
+        {
+          "sha": "6f9bac28450c603daeda43d6552aa0a7a6dd67de",
+          "author": {
+            "email": "al.the.x@gmail.com",
+            "name": "David Rogers"
+          },
+          "message": "Intentional commit...",
+          "distinct": true,
+          "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits/6f9bac28450c603daeda43d6552aa0a7a6dd67de"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-01-27T16:34:48Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2539381710",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/166",
+        "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/166/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/166/comments",
+        "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/166/events",
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues/166",
+        "id": 55554461,
+        "number": 166,
+        "title": "Attendance for 2015-01-27",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels/Attendance",
+            "name": "Attendance",
+            "color": "c7def8"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-01-26T23:41:21Z",
+        "updated_at": "2015-01-27T15:01:53Z",
+        "closed_at": "2015-01-27T15:01:53Z",
+        "body": "* [x] johnalxndr --  John Alexander\r\n* [x] jgarcia99 --  Josuel C Garcia\r\n* [x] sak55 --  Sam Kauffman\r\n* [x] eklemen --  Evan Klemen\r\n* [x] jrutishauser --  Jon Rutishauser\r\n* [x] mfees --  Maddie Fees\r\n* [x] carolinapowers --  Carolina Powers\r\n* [x] TaylorFoster90 --  Taylor Foster\r\n* [x] adamkarb --  Adam Karbiener\r\n* [x] GarrettGraham --  Garrett Lee Graham Anderson\r\n* [x] jaredstevick --  Jared Stevick\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T15:01:53Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2538344165",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 167,
+      "pull_request": {
+        "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167",
+        "id": 28084566,
+        "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167",
+        "diff_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167.diff",
+        "patch_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167.patch",
+        "issue_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167",
+        "number": 167,
+        "state": "open",
+        "locked": false,
+        "title": "Assignment 14: Hello Lodash",
+        "user": {
+          "login": "al-the-x",
+          "id": 96015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/96015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/al-the-x",
+          "html_url": "https://github.com/al-the-x",
+          "followers_url": "https://api.github.com/users/al-the-x/followers",
+          "following_url": "https://api.github.com/users/al-the-x/following{/other_user}",
+          "gists_url": "https://api.github.com/users/al-the-x/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/al-the-x/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/al-the-x/subscriptions",
+          "organizations_url": "https://api.github.com/users/al-the-x/orgs",
+          "repos_url": "https://api.github.com/users/al-the-x/repos",
+          "events_url": "https://api.github.com/users/al-the-x/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/al-the-x/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "* **API Gymnastics** ~10m\n  * update `events.json`\n  * run `answer()` again\n  * add a comment with results\n* [ ] **Lists and Dictionaries** (part 2)\n  * **Arrays as Lists**\n  * **Objects as Dictionaries**\n    * [ ] How do I write it?\n    * [ ] What is a dictionary?\n      * keys, values, and confusing operators\n    * [ ] What can I use it for?\n      * refactoring from sequential comparison to dictionary lookup\n* [ ] **Looping over Lists and Dictionaries**\n  * `while` + (`pop` | `shift`)\n  * (`while` | `for`) + `index`\n  * `Array.prototype.forEach`\n  * `for`-`in` is ugly...\n* [ ] **Lodash**\n  * `npm install lodash` (no `-g`)\n    * `ls node_modules/`\n    * `.gitignore` vs `git ignore` via `brew install git-extras`\n  * `var _ = require('lodash')`\n    * [`_.forEach`](http://lodash.com/docs#forEach)\n    * [`_.template`](http://lodash.com/docs#template)",
+        "created_at": "2015-01-27T05:19:01Z",
+        "updated_at": "2015-01-27T05:19:01Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/commits",
+        "review_comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/comments",
+        "review_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}",
+        "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167/comments",
+        "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/f76423d2b05f5fe1c180816dd864726f63aa2e9c",
+        "head": {
+          "label": "TheIronYard--Orlando:feature/14--Hello-Lodash",
+          "ref": "feature/14--Hello-Lodash",
+          "sha": "f76423d2b05f5fe1c180816dd864726f63aa2e9c",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T02:56:23Z",
+            "pushed_at": "2015-01-27T05:17:19Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 39,
+            "forks": 6,
+            "open_issues": 39,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "TheIronYard--Orlando:master",
+          "ref": "master",
+          "sha": "0adaef72a4506d0486ea22de97266a1d0052479b",
+          "user": {
+            "login": "TheIronYard--Orlando",
+            "id": 8798300,
+            "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/TheIronYard--Orlando",
+            "html_url": "https://github.com/TheIronYard--Orlando",
+            "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+            "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+            "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+            "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+            "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+            "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 25180640,
+            "name": "FEE--2015--SPRING",
+            "full_name": "TheIronYard--Orlando/FEE--2015--SPRING",
+            "owner": {
+              "login": "TheIronYard--Orlando",
+              "id": 8798300,
+              "avatar_url": "https://avatars.githubusercontent.com/u/8798300?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/TheIronYard--Orlando",
+              "html_url": "https://github.com/TheIronYard--Orlando",
+              "followers_url": "https://api.github.com/users/TheIronYard--Orlando/followers",
+              "following_url": "https://api.github.com/users/TheIronYard--Orlando/following{/other_user}",
+              "gists_url": "https://api.github.com/users/TheIronYard--Orlando/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/TheIronYard--Orlando/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/TheIronYard--Orlando/subscriptions",
+              "organizations_url": "https://api.github.com/users/TheIronYard--Orlando/orgs",
+              "repos_url": "https://api.github.com/users/TheIronYard--Orlando/repos",
+              "events_url": "https://api.github.com/users/TheIronYard--Orlando/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/TheIronYard--Orlando/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+            "fork": false,
+            "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING",
+            "forks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/forks",
+            "keys_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/teams",
+            "hooks_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/hooks",
+            "issue_events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/events",
+            "assignees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/tags",
+            "blobs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/languages",
+            "stargazers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/stargazers",
+            "contributors_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contributors",
+            "subscribers_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscribers",
+            "subscription_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/subscription",
+            "commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/comments/{number}",
+            "contents_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/merges",
+            "archive_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/downloads",
+            "issues_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/labels{/name}",
+            "releases_url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/releases{/id}",
+            "created_at": "2014-10-13T22:30:31Z",
+            "updated_at": "2015-01-27T02:56:23Z",
+            "pushed_at": "2015-01-27T05:17:19Z",
+            "git_url": "git://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "ssh_url": "git@github.com:TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "clone_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING.git",
+            "svn_url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING",
+            "homepage": null,
+            "size": 5718,
+            "stargazers_count": 12,
+            "watchers_count": 12,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 6,
+            "mirror_url": null,
+            "open_issues_count": 39,
+            "forks": 6,
+            "open_issues": 39,
+            "watchers": 12,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167"
+          },
+          "html": {
+            "href": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/pull/167"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/issues/167/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/comments/{number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/pulls/167/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING/statuses/f76423d2b05f5fe1c180816dd864726f63aa2e9c"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 108,
+        "deletions": 0,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-01-27T05:19:02Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2538342481",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/14--Hello-Lodash",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Class projects for the Front-End Engineering cohort of @TheIronYard--Orlando for Spring 2015",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T05:17:19Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  },
+  {
+    "id": "2538185415",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 96015,
+      "login": "al-the-x",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/al-the-x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96015?"
+    },
+    "repo": {
+      "id": 25180640,
+      "name": "TheIronYard--Orlando/FEE--2015--SPRING",
+      "url": "https://api.github.com/repos/TheIronYard--Orlando/FEE--2015--SPRING"
+    },
+    "payload": {
+      "ref": "feature/13--Lists+Dicts",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-01-27T02:57:34Z",
+    "org": {
+      "id": 8798300,
+      "login": "TheIronYard--Orlando",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TheIronYard--Orlando",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8798300?"
+    }
+  }
+]
