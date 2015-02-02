@@ -34,10 +34,9 @@
 
 #### Homework
 
-* **Github Profile LITE**
-  * Use [Bootstrap](http://getbootstrap.com) CSS
-  * Mockup HTML: fake links, real icons, placeholder images
-  * Fully responsive: incorporate mobile view
+* **[Responsive Form](http://tympanus.net/Blueprints/ResponsiveMultiColumnForm/)
+  * in `pub/form.html`
+  * add to `pub/css/main.css`
 * **[TodoMVC](http://todomvc.com)**
   * read [the specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md)
   * use [the template](https://github.com/tastejs/todomvc-app-template/)
@@ -47,10 +46,31 @@
 ### Wednesday
 
 * **Homework / Progress Review**
-  * Github Profile LITE
+  * Responsive Form
   * TodoMVC with jQuery
 * **Even More jQuery!**
   * Ajax via `jQuery.get()`
   * jQuery Promises: `done`, `fail`, `always`
+  * ReSTful APIs, HTTP Verbs
+  * Show `jQuery.post()`
 
-More coming...
+#### Homework
+
+* **TodoMVC Cont'd**
+* **Github Profile LITE**
+  * Use [Bootstrap](http://getbootstrap.com) CSS
+  * Mockup HTML: fake links, real icons, placeholder images
+  * Fully responsive: incorporate mobile view
+
+### Thursday
+
+* **Homework Presentation:** TodoMVC
+* **Retrospective**
+* **Build Together**
+  * Github Profile -- just user data
+  * Github Comments -- wired to Gist
+
+#### Homework
+
+* **Github Profile**
+* **Github Comments**
