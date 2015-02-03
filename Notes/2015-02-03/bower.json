@@ -20,6 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "1.9"
+    "jquery": "~2.1.3"
   }
 }
