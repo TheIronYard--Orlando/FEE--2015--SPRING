@@ -100,7 +100,30 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
+          jQuery('h2 > a').on('click', function(event){
+            console.log('arguments to "click" handler: ', arguments);
+            console.log('this inside "click" handler: ', this);
+            event.preventDefault();
+            
+            if ( true /* h2 is open */ ){
+              // close it
+            } else {
+              // open it
+            }
+          });
+          
+          /* // With jQuery.each...
+          jQuery('h2').each(function(index, h2){
+            h2.onclick = function(event){
+              event.preventDefault();
+              // ...
+            }
+            // All that stuff...
+          });
+          
+          /* // With straight DOM JS...
           _.forEach(document.querySelectorAll('h2'), function(h2){
+            console.log('this in _.forEach:', this);
             h2.onclick = function(event){
               event.preventDefault();
               var classes = h2.className.split(' ');
@@ -114,7 +137,7 @@
                 h2.className = 'open';
               }
             }
-          });
+          }); // */
         </script>
       
       <script>
