@@ -12,7 +12,10 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -67,7 +70,7 @@
 
         </article>
     
-        <h2 class="open"><a href>Oak Cake Tootsie Roll </a></h2>
+        <h2><a href>Oak Cake Tootsie Roll </a></h2>
 
         <article>
           <p> Jelly sweet roll dragée gummies. Jelly-o cotton candy gingerbread. Dessert tart bear claw gummi bears I love oat cake cotton candy sesame snaps carrot cake. Croissant marshmallow tiramisu icing soufflé chocolate cake. I love pie icing. Sweet I love sweet roll cheesecake dessert. Tiramisu gingerbread I love. Muffin chocolate cake powder cheesecake oat cake tootsie roll candy soufflé. Brownie toffee powder tiramisu. Wafer I love jujubes croissant. Chocolate cake candy jujubes tootsie roll bonbon toffee I love. Topping candy jelly-o. Halvah faworki I love I love toffee pastry icing chupa chups. Pie gingerbread candy canes oat cake.</p>
@@ -94,13 +97,38 @@
         </article>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
-          _.forEach(document.getElementsByTagName('h2'), function(h2){
+          jQuery('h2 > a').on('click', function(event){
+            console.log('arguments to "click" handler: ', arguments);
+            console.log('this inside "click" handler: ', this);
+            event.preventDefault();
+            
+            if ( true /* h2 is open */ ){
+              // close it
+            } else {
+              // open it
+            }
+          });
+          
+          /* // With jQuery.each...
+          jQuery('h2').each(function(index, h2){
+            h2.onclick = function(event){
+              event.preventDefault();
+              // ...
+            }
+            // All that stuff...
+          });
+          
+          /* // With straight DOM JS...
+          _.forEach(document.querySelectorAll('h2'), function(h2){
+            console.log('this in _.forEach:', this);
             h2.onclick = function(event){
               event.preventDefault();
               var classes = h2.className.split(' ');
@@ -114,7 +142,7 @@
                 h2.className = 'open';
               }
             }
-          });
+          }); // */
         </script>
       
       <script>

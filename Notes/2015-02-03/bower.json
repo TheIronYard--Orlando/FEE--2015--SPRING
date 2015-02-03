@@ -1,0 +1,27 @@
+{
+  "name": "Notes/2015-02-03",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theironyard--orlando/fee--2015--spring",
+  "authors": [
+    "David Rogers <al.the.x@gmail.com>"
+  ],
+  "description": "Notes for today!",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "CC0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "normalize.css": "~3.0.2",
+    "bootstrap": "~3.3.2"
+  }
+}
