@@ -92,4 +92,4 @@ Try implementing the [Persistence](https://github.com/tastejs/todomvc/blob/maste
   * [project template](https://github.com/tastejs/todomvc-app-template)
   * [implementation in "vanilla" JS](http://todomvc.com/examples/vanillajs/)
   * [implementation in jQuery](http://todomvc.com/examples/jquery/#/all)
-* **[_A Form of Madness_ on _Dive Into HTML_](http://diveintohtml5.info/forms.html)
+* [_A Form of Madness_ on _Dive Into HTML_](http://diveintohtml5.info/forms.html)
