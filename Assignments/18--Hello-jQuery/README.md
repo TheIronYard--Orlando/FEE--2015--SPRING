@@ -82,6 +82,11 @@ Try implementing the [Persistence](https://github.com/tastejs/todomvc/blob/maste
   * [Blasting Off with Bootstrap](https://www.codeschool.com/courses/blasting-off-with-bootstrap)
   * [Try jQuery](https://www.codeschool.com/courses/try-jquery)
   * [jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
+* **[jQuery](http://jquery.com)**
+  * More lightweight alternatives:
+    * [Zepto JS](http://zeptojs.com/)
+    * [Minified JS](http://minifiedjs.com/)
+    * [Are there others?](http://bit.ly/1uUhds0)
 * **[TodoMVC](http://todomvc.com)**
   * [app specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md)
   * [project template](https://github.com/tastejs/todomvc-app-template)
