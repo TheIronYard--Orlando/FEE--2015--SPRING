@@ -80,6 +80,43 @@
               <span class="hidden-xs hidden-sm">Knight</span></a>
           </nav>
           
+          <section class="panels row">
+            <div class="panel">
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+            </div> <!-- .panel -->
+          </section> <!-- .panels -->
+          
         </div><!-- .container -->
 
         <!-- bower:js -->
@@ -88,6 +125,40 @@
         <!-- endbower -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+          setTimeout(function(){
+            console.log('hello from the future');
+            document.getElementById('broken-image').src = "http://lorempixel.com/400/200";
+          }, 3000);
+
+          $(function(){
+            // What we need do?
+            $('.tabs > a').on('click', function(event){
+              var $this = $(this);
+              
+              $this.addClass('active');
+              
+              var $siblings = $this.siblings();
+              
+              $siblings.removeClass('active');
+              
+              $(this)
+                .addClass('active')
+                .siblings()
+                  .removeClass('active');
+              
+              event.preventDefault();
+            }); // END on(click)
+          }); // document.ready
+          
+          jQuery(function(){
+            // Same as below...
+          }); // document.ready
+          
+          jQuery(document).ready(function(){
+            // Stuff goes here...
+          }); // document.ready()
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
