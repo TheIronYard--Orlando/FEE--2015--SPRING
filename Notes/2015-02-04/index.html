@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <style>
+          body {
+            font-size: 10pt;
+          }
+          .tabs {
+            font-size: 1.5em;
+            text-align: center;
+            /* border-bottom: 1px solid gray; // Will not buy again... */
+          }
+          .tabs > a {
+            color: lightgray;
+            border: 1px solid;
+            text-decoration: none;
+          }
+          .tabs > a:hover {
+            color: grey;
+          }
+          .tabs > a.active {
+             color: cornflowerblue;
+             border-bottom: none;
+             border-top-width: 3px;
+          }
+          /* This totally does not work in CSS...
+          .tabs > a > span {
+            .hidden-xs
+            .hidden-sm
+          } */
+          .icon:before {
+            font-size: 1.5em;
+          }
+          .icon-king:before {
+            content: '\265a';
+          }
+          .icon-queen:before {
+            content: '\265b';
+          }
+          .icon-rook:before {
+            content: '\265c';
+          }
+          .icon-knight:before {
+            content: '\265e';
+          }
+        </style>
+
+        <!-- Add your site or application content here -->
+        <div class="container-fluid">
+          
+          <nav class="tabs row">
+            <a class="col-xs-3 col-sm-2 col-sm-offset-2 icon icon-king" href> 
+              <span class="hidden-xs hidden-sm">King</span></a>
+            <a class="col-xs-3 col-sm-2 icon icon-queen active" href> 
+              <span class="hidden-xs hidden-sm">Queen</span></a>
+            <a class="col-xs-3 col-sm-2 icon icon-rook" href> 
+              <span class="hidden-xs hidden-sm">Rook</span></a>
+            <a class="col-xs-3 col-sm-2 icon icon-knight" href> 
+              <span class="hidden-xs hidden-sm">Knight</span></a>
+          </nav>
+          
+          <section class="panels row">
+            <div class="panel">
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <img src="#" id="broken-image">
+                <figcaption>
+                  <h3>This is a heading...</h3>
+
+                  <article>
+                    <p>Lorem ipsum one day.</p>
+                  </article>
+                </figcaption>
+              </figure>
+            </div> <!-- .panel -->
+          </section> <!-- .panels -->
+          
+        </div><!-- .container -->
+
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+          setTimeout(function(){
+            console.log('hello from the future');
+            document.getElementById('broken-image').src = "http://lorempixel.com/400/200";
+          }, 3000);
+
+          $(function(){
+            // What we need do?
+            $('.tabs > a').on('click', function(event){
+              var $this = $(this);
+              
+              $this.addClass('active');
+              
+              var $siblings = $this.siblings();
+              
+              $siblings.removeClass('active');
+              
+              $(this)
+                .addClass('active')
+                .siblings()
+                  .removeClass('active');
+              
+              event.preventDefault();
+            }); // END on(click)
+          }); // document.ready
+          
+          jQuery(function(){
+            // Same as below...
+          }); // document.ready
+          
+          jQuery(document).ready(function(){
+            // Stuff goes here...
+          }); // document.ready()
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
