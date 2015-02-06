@@ -12,7 +12,9 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -22,10 +24,103 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <ul class="nav nav-tabs visible-xs">
+          <li class="col-xs-6 active"><a href="#">About</a></li>
+          <li class="col-xs-6 active"><a href="#">Repositories</a></li>
+        </ul>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <header class="row">
+          <figure class="col-xs-5">
+            <a href="https://github.com/al-the-x" class="thumbnail col-xs-offset-1">
+              <img src="https://avatars1.githubusercontent.com/u/96015?v=3&s=220" title="al-the-x">
+            </a>
+          </figure>
+          <style>
+.personal-info {
+
+}
+.personal-info h3 {
+  margin-top: 10px;
+}
+.personal-info h3 small {
+  display: block; margin-top: 5px;
+}
+.personal-info .icon:before {
+  display: inline-block;
+  width: 1.5em; margin-right: 0.2em;
+  font-weight: bold; text-align: center;
+}
+.personal-info .icon-work:before {
+  content: 'W';
+}
+.personal-info .icon-location:before {
+  content: 'L';
+}
+.personal-info .icon-email:before {
+  content: 'e';
+}
+.personal-info .icon-link:before {
+  content: 'w';
+}
+          </style>
+          <aside class="personal-info col-xs-7">
+            <h3>David Rogers <small>al-the-x</small> </h3>
+            <ul class="list-unstyled">
+              <li class="icon icon-work">The Iron Yard</li>
+              <li class="icon icon-location">Orlando, FL</li>
+              <li class="icon icon-email">
+                <a href="mailto:hello@al-the-x.me">hello@al-the-x.me</a>
+              </li>
+              <li class="icon icon-link">
+                <a href="http://al-the-x.me">http://al-the-x.me</a>
+              </li>
+            </ul>
+          </aside>
+        </header><!-- .row -->
+
+        <style>
+.social {
+  text-align: center;
+  background-color: lightgray;
+  padding: 2ex inherit;
+  border: 1px solid gray;
+  border-left: none; border-right: none;
+}
+.social big {
+  display: block;
+  font-weight: bold;
+  font-size: 4ex;
+}
+        </style>
+        <section class="social row">
+          <a class="col-xs-4" href="https://github.com/al-the-x/followers">
+            <big>63</big>
+            <small>Followers</small>
+          </a>
+          <a class="col-xs-4" href="https://github.com/al-the-x/starred">
+            <big>119</big>
+            <small>Starred</small>
+          </a>
+          <a class="col-xs-4" href="https://github.com/al-the-x/following">
+            <big>9</big>
+            <small>Following</small>
+          </a>
+        </section><!-- .social -->
+
+        <section class="repos">
+          <dl class="panel panel-default">
+            <dt class="panel-heading">Popular Repositories</dt>
+            <dd class="panel-body">
+              <a class="icon icon-repo" href="#">al-the-x/pyst</a>
+              <small>11 &#x2605;</small>
+            </dd><!-- .panel-body -->
+          </dl>
+        </section><!-- .repos.row -->
+
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
