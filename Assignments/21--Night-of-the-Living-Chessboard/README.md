@@ -20,13 +20,13 @@ Your `Game` should have an internal list of moves, an `Array` of `Function` item
 
 Chess is a sport! It has players _and a score!_ In it's simplest form, you can just add up [the point values for each piece](http://en.wikipedia.org/wiki/Chess_piece_relative_value) at the end of each turn:
 
-| piece   | value   |
-| ======= | ======= |
-| pawn    | 1       |
-| knight  | 3       |
-| bishop  | 3       |
-| rook    | 5       |
-| queen   | 9       |
+|          | piece   | value   |
+|----------|---------|---------|
+| &#x265f; | pawn    | 1       |
+| &#x265e; | knight  | 3       |
+| &#x265d; | bishop  | 3       |
+| &#x265c; | rook    | 5       |
+| &#x265b; | queen   | 9       |
 
 You should do that. Your `Game` class needs a `players()` method that returns an `Object` with two properties -- `white` and `black` -- that contain the `Number` score for each player.
 
