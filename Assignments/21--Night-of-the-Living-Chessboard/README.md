@@ -62,3 +62,4 @@ If you're looking to brush up for the rest of the week, doing some **API Gymnast
   * [_Castling_ (in-depth)](http://en.wikipedia.org/wiki/Castling)
   * [_En Passant_ (in-depth)](http://en.wikipedia.org/wiki/En_passant)
   * [_Piece Values_](http://en.wikipedia.org/wiki/Chess_piece_relative_value)
+* [_User Stories_ in `FEE--2015--SPRING`](https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/wiki/User-Stories----Chessboard)
