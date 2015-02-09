@@ -32,11 +32,28 @@ You should do that. Your `Game` class needs a `players()` method that returns an
 
 ### JavaScript is Fun!
 
-You don't believe me? Try checking out [The Colour Clock](http://thecolourclock.co.uk) for inspiration. Can't you do the same... or better? You'll need to read about [the `setInterval()` browser API](http://en.wikipedia.org/wiki/Chess_piece_relative_value) and [the `Date` type in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) (I swear we've seen that before somewhere). Peeking at the source code for the reference implementation might help, too.
+You don't believe me? Try checking out [The Colour Clock](http://thecolourclock.co.uk) for inspiration. Can't you do the same... or better? You'll need to read about [the `setInterval()` browser API](http://j.mp/1zpUvbU) and [the `Date` type in JS](http://j.mp/1zpUIMf) (I swear we've seen that before somewhere). Peeking at the source code for the reference implementation might help, too.
 
 ### Additional Practice as Necessary
 
 If you're looking to brush up for the rest of the week, doing some **API Gymnastics** or tackling [another Project Euler problem](http://projecteuler.net/problems) would be a good start. If you're really brave, check out [Code Wars](http://codewars.com) for some daily warm-ups.
+
+## Requirements
+
+* _WIP Issue:_ `21 -- Night of the Living Chessboard`
+* _WIP Branch:_ `feature/21--living-chessboard`
+* _WIP Files:_
+  * **Night of the Living Chessboard**
+    * `pub/index.html`
+    * `pub/js/main.js`
+    * `pub/css/main.css`
+* `pub/css/main.scss`
+  * **The Colour Clock**
+    * get creative...
+  * **Project Euler**
+    * `scripts/euler-XX.js`
+  * **API Gymnastics**
+    * `scripts/gymnastics.js`
 
 ## Additional Resources
 
@@ -45,4 +62,3 @@ If you're looking to brush up for the rest of the week, doing some **API Gymnast
   * [_Castling_ (in-depth)](http://en.wikipedia.org/wiki/Castling)
   * [_En Passant_ (in-depth)](http://en.wikipedia.org/wiki/En_passant)
   * [_Piece Values_](http://en.wikipedia.org/wiki/Chess_piece_relative_value)
-
