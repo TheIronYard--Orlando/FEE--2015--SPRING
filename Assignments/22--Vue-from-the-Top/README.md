@@ -15,6 +15,10 @@ In `scripts/pieces.js`, implement the `Piece` Constructor and its Prototype acco
  * @param String name of Piece, e.g. "queen", "rook", "knight"
  * @param String position of Piece, e.g. "a7", "d8"
  *
+ * @property String _color of Piece passed to Constructor
+ * @property String _name of Piece passed to Constructor
+ * @property String _position of Piece passed to Constructor
+ *
  * @method position
  * @returns String current position, e.g. "a8", "f3"
  *
