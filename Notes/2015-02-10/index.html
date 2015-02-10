@@ -22,52 +22,6 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <style>
-          table {
-            width: 100%;
-          }
-          th {
-            text-align: center;
-            vertical-align: middle;
-          }
-          td {
-            width: 20%;
-            padding-bottom: 20%;
-          }
-          thead th {
-            border-bottom: 1px solid red;
-          }
-          tbody th {
-            border-right: 1px solid blue;
-          }
-          tbody td {
-            border: 1px solid black;
-          }
-          tbody td, tbody th {
-
-          }
-          tbody :nth-child(even) td:nth-child(even), 
-          tbody :nth-child(odd) td:nth-child(odd) {
-            background-color: gray;
-          }
-          
-          td {
-            position: relative;
-          }
-          td:before {
-            font-size: 7em;
-            position: absolute;
-          }
-          .queen:before {
-            content: '\2655';
-          }
-          .king:before {
-            content: '\2654';
-          }
-          .black.pawn:before {
-            content: '\265F'; /* ???? */
-          }
-        </style>
         <table>
           <thead>
             <tr>
@@ -76,22 +30,37 @@
               <th> b </th>
               <th> c </th>
               <th> d </th>
+              <th> e </th>
+              <th> f </th>
+              <th> g </th>
+              <th> h </th>
+              <td> </td>
             </tr>
           </thead>
           <tbody>
             <tr>
               <th> 8 </th>
-              <td class="queen"> </td>
-              <td class="king"> </td>
-              <td class="black pawn"> </td>
-              <td> </td>
+              <td class="black rook"> </td>
+              <td class="black knight"> </td>
+              <td class="black bishop"> </td>
+              <td class="black queen"> </td>
+              <td class="black king"> </td>
+              <td class="black bishop"> </td>
+              <td class="black knight"> </td>
+              <td class="black rook"> </td>
+              <th> 8 </th>
             </tr>
             <tr>
               <th> 7 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <td class="black pawn"> </td>
+              <th> 7 </th>
             </tr>
             <tr>
               <th> 6 </th>
@@ -99,6 +68,11 @@
               <td> </td>
               <td> </td>
               <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <th> 6 </th>
             </tr>
             <tr>
               <th> 5 </th>
@@ -106,9 +80,75 @@
               <td> </td>
               <td> </td>
               <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <th> 5 </th>
+            </tr>
+            <tr>
+              <th> 4 </th>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <th> 4 </th>
+            </tr>
+            <tr>
+              <th> 3 </th>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <th> 3 </th>
+            </tr>
+            <tr>
+              <th> 2 </th>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <td class="white pawn"> </td>
+              <th> 2 </th>
+            </tr>
+            <tr>
+              <th> 1 </th>
+              <td class="white rook"> </td>
+              <td class="white knight"> </td>
+              <td class="white bishop"> </td>
+              <td class="white queen"> </td>
+              <td class="white king"> </td>
+              <td class="white bishop"> </td>
+              <td class="white knight"> </td>
+              <td class="white rook"> </td>
+              <th> 1 </th>
             </tr>
           </tbody>
-          
+          <tfoot>
+            <tr>
+              <td> </td>
+              <th> a </th>
+              <th> b </th>
+              <th> c </th>
+              <th> d </th>
+              <th> e </th>
+              <th> f </th>
+              <th> g </th>
+              <th> h </th>
+              <td> </td>
+            </tr>
+          </tfoot>
         </table>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
