@@ -1,0 +1,76 @@
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/chai/chai.js"></script>
+<!-- endbower -->
+<script>
+  var assert = chai.assert;
+  
+  var blackPawnA7 = {
+    color: 'black',
+    name: 'pawn',
+    position: 'a7'
+  }
+  
+  var whiteBishopKingside = {
+    color: 'white',
+    name: 'bishop',
+    position: 'c1'
+  }
+  
+  var whiteBishopQueenside = {
+    color: 'white',
+    name: 'bishop',
+    position: 'f1'
+  }
+  
+  /**
+   * @param String color
+   * @param String name 
+   * @param String position
+   * @returns Object with {color: String, name: String, position: String }
+   */
+  function pieceFactory(color, name, position){
+    // GIVEN color of "white" or "black"
+    // GIVEN name of "pawn" or "bishop"
+    
+    // WHEN color is "black" and name is "pawn"
+    // THEN make a blackPawn at A7
+    
+    // WHEN color is "white" and name is "bishop"
+    // THEN make a whiteBishop at C1
+  }
+  
+  function Piece(color, name, position){
+    // Attach `properties` here...
+    this.color = color;
+    this.name = name;
+    this.position = position;
+  }
+  
+  Piece.prototype = {
+    // Attach `methods` here...
+    getName: function(){
+      return this.name;
+    },
+    getFullName: function(){
+      return this.color + ' ' + this.name;
+    }
+  };
+  
+  var whiteQueen = new Piece('white', 'queen', 'D1');
+  
+  assert.equal(whiteQueen.getName(), 'queen');
+  assert.equal(whiteQueen.getFullName(), 'white queen');
+  // Kinda like... <td class="white queen"></td>
+  
+  function Rook(color, queenside){
+    // GIVEN color of "white" or "black"
+    // GIVEN queenside is TRUE or FALSE
+    
+    // WHEN color is "white" and queenside is TRUE
+    // THEN color is "white", name is "rook", position is "H7"
+    Piece.call(this, color, 'rook', position);
+  }
+  
+  Rook.prototype = new Piece(); // ?!?!?!?!???!??!?
+</script>
