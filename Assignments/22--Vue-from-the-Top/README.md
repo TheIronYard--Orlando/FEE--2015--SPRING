@@ -37,7 +37,11 @@ In `scripts/pieces.js`, implement the `Piece` Constructor and its Prototype acco
  * @return String UTF8 character, e.g. "black knight" == "\u265e"
  */
 function Piece(color, name, position){
+  // Constructor
 }
+
+Piece.prototype = {
+} // END Piece.prototype
 ```
 
 Include tests that cover all the possible input values for `color` and `name` and some various starting positions... Maybe even some incorrect ones!
@@ -74,15 +78,20 @@ Have you got your Chessboard working with jQuery yet? Maybe some data modeling w
  * @param Boolean rook position to castle from
  * @uses move on `Rook` and `King` in one turn
  *
- * @method pieceAt(row, col) -- retrieve `Piece` at {row, col} or `null` if empty
- * @param Number row to inspect
- * @param Number col to inspect
+ * @method pieceAt(position) -- retrieve `Piece` at `position` or `null` if empty
+ * @param String position to inspect, e.g. "a2", "c5"
  * @returns Piece|null if {row, col} is empty
  *
  * @method toString() -- simple representation of Board for debugging
+ *
+ * @method toArray() -- probably unnecssary
  */
 function Board(){
+  // Constructor
 }
+
+Board.prototype = {
+} // END Board.prototype
 ```
 
 #### BEAST MODE
@@ -106,13 +115,17 @@ Looking for more of a challenge, huh? Well, here you go. Implement _this_ bad bo
  * @method score() -- return the score for both colors
  * @returns Object { "white": Number, "black": Number }
  *
- * @method pieceAt(row, col) -- retrieve `Piece` at {row, col} or `null` if empty
+ * @method pieceAt(position) -- retrieve `Piece` at `position` or `null` if empty
  * @return Piece|null
  *
  * @method toString() -- simple representation of Game state for debugging
  */
 function Game(Board){
+  // Constructor
 }
+
+Game.prototype = {
+} // END Game.prototype
 ```
 
 ## Requirements
