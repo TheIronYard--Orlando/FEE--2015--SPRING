@@ -79,7 +79,7 @@ Have you got your Chessboard working with jQuery yet? Maybe some data modeling w
  * @param String position of captured `Piece`, e.g. "d8"
  *
  * @method castle(rook) -- perform a castle maneuver
- * @param Boolean rook position to castle from
+ * @param String rook position to castle from
  * @uses move on `Rook` and `King` in one turn
  *
  * @method pieceAt(position) -- retrieve `Piece` at `position` or `null` if empty
