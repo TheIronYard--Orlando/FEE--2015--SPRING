@@ -98,7 +98,7 @@ Board.prototype = {
 
 Looking for more of a challenge, huh? Well, here you go. Implement _this_ bad boy:
 
-```
+```javascript
 /**
  * @constructor Game
  * @param Function Board to represent game state
