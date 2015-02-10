@@ -1,0 +1,20 @@
+{
+  "name": "2015-02-10",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theironyard--orlando/fee--2015--spring",
+  "authors": [
+    "David Rogers <al.the.x@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
