@@ -21,6 +21,7 @@
   "dependencies": {
     "normalize.css": "~3.0.2",
     "vue": "~0.11.5",
-    "chai": "~2.0.0"
+    "chai": "~2.0.0",
+    "mocha": "~2.1.0"
   }
 }

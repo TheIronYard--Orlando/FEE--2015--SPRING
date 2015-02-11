@@ -14,6 +14,7 @@
 
         <!-- bower:css -->
         <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/mocha/mocha.css" />
         <!-- endbower -->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -24,6 +25,8 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div id="mocha"></div>
+
         <table>
           <thead>
             <tr>
@@ -156,8 +159,15 @@
         <!-- bower:js -->
         <script src="bower_components/vue/dist/vue.js"></script>
         <script src="bower_components/chai/chai.js"></script>
+        <script src="bower_components/mocha/mocha.js"></script>
         <!-- endbower -->
+        <script>
+          mocha.setup('bdd');
+        </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+          mocha.run();
+        </script>
     </body>
 </html>
