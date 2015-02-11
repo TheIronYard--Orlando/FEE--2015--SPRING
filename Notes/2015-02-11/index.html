@@ -30,16 +30,9 @@
         <table id="chessboard">
           <thead>
             <tr>
-              <td v-text="message"> </td>
-              <th> a </th>
-              <th> b </th>
-              <th> c </th>
-              <th> d </th>
-              <th> e </th>
-              <th> f </th>
-              <th> g </th>
-              <th> h </th>
-              <td> </td>
+              <td></td>
+              <th v-repeat="letter: 'ABCDEFGH'" id="header-{{letter}}"> {{letter}} </th>
+              <td></td>
             </tr>
           </thead>
           <tbody>
@@ -67,53 +60,10 @@
               <td class="black pawn"> </td>
               <th> 7 </th>
             </tr>
-            <tr>
-              <th> 6 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 6 </th>
-            </tr>
-            <tr>
-              <th> 5 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 5 </th>
-            </tr>
-            <tr>
-              <th> 4 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 4 </th>
-            </tr>
-            <tr>
-              <th> 3 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 3 </th>
+            <tr v-repeat="4">
+              <th> {{6 - $index}} </th>
+              <td v-repeat="8"> </td>
+              <th> {{6 - $index}} </th>
             </tr>
             <tr>
               <th> 2 </th>

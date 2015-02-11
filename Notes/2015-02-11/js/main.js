@@ -1,8 +1,8 @@
 var vm = new Vue({
-  el: document.getElementById('chessboard'),
+  el: '#chessboard',
   data: {
     message: 'Hello from Vue'
-  }
+  },
 });
 
 setTimeout(function(){
