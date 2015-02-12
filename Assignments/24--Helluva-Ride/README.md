@@ -49,3 +49,17 @@ Remember to link _each_ of your PRs to your _WIP Issue_!
     * `css/main.css`
     * `js/main.js`
 
+### Show me yo' moves!
+
+To make it easier for your peers to _find_ your work, include a file named `index.md` in your repository root. Initially, it should look like this:
+
+```markdown
+---
+---
+
+### Projects
+
+* [Current WIP](pub/index.html)
+```
+
+_Note the two rows of three hyphens at the top of the file_... They're important. When you push that file to `gh-pages`, Github will convert it to an `index.html` file automatically... _as long as you have those hyphens._ Use Markdown to link to each project as you complete it.
