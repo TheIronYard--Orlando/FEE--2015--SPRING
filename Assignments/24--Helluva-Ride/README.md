@@ -14,7 +14,7 @@ There are a handful of assignments from the last few weeks that should stand out
 * **[Check Writing](/Assignments/12--Coding-Dojo-Style/README.md#check-writing-kata-lite)**
 * **[API Gymnastics](/Assignments/13--Lists%2BDicts/README.md#api-gymnastics)**
 * **[A Nice Game of Chess](/Assignments/16--Nice-Game-of-Chess/README.md)**
-* **[Github Revolution](/Assignments/20--Github-Revolution/README.md**
+* **[Github Revolution](/Assignments/20--Github-Revolution/README.md)**
 
 Redo all of these.
 
