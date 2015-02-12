@@ -4,7 +4,9 @@
   "description": "Assignment 24: One Helluva Ride",
   "main": "index.html",
   "scripts": {
-    "test": "mocha tests/"
+    "test": "mocha tests/",
+    "bower": "bower",
+    "postbower": "wiredep -s index.html"
   },
   "repository": {
     "type": "git",
