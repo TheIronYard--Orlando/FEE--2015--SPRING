@@ -13,6 +13,8 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/mocha/mocha.css" />
         <!-- endbower -->
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -23,19 +25,14 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <table>
+        <div id="mocha"></div>
+
+        <table id="chessboard">
           <thead>
             <tr>
-              <td> </td>
-              <th> a </th>
-              <th> b </th>
-              <th> c </th>
-              <th> d </th>
-              <th> e </th>
-              <th> f </th>
-              <th> g </th>
-              <th> h </th>
-              <td> </td>
+              <td></td>
+              <th v-repeat="letter: 'ABCDEFGH'" id="header-{{letter}}"> {{letter}} </th>
+              <td></td>
             </tr>
           </thead>
           <tbody>
@@ -63,53 +60,10 @@
               <td class="black pawn"> </td>
               <th> 7 </th>
             </tr>
-            <tr>
-              <th> 6 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 6 </th>
-            </tr>
-            <tr>
-              <th> 5 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 5 </th>
-            </tr>
-            <tr>
-              <th> 4 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 4 </th>
-            </tr>
-            <tr>
-              <th> 3 </th>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <td> </td>
-              <th> 3 </th>
+            <tr v-repeat="4">
+              <th> {{6 - $index}} </th>
+              <td v-repeat="8"> </td>
+              <th> {{6 - $index}} </th>
             </tr>
             <tr>
               <th> 2 </th>
@@ -153,18 +107,17 @@
         </table>
 
         <!-- bower:js -->
+        <script src="bower_components/vue/dist/vue.js"></script>
+        <script src="bower_components/chai/chai.js"></script>
+        <script src="bower_components/mocha/mocha.js"></script>
         <!-- endbower -->
+        <script>
+          mocha.setup('bdd');
+        </script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+          mocha.run();
         </script>
     </body>
 </html>
