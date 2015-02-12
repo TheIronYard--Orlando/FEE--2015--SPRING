@@ -1,0 +1,21 @@
+{
+  "name": "TIY-Gradebook",
+  "version": "0.0.0",
+  "homepage": "https://github.com/theironyard--orlando/fee--2015--spring",
+  "authors": [
+    "David Rogers <david@theironyard.com>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "GPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
