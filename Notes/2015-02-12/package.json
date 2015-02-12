@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha tests/",
     "bower": "bower",
-    "postbower": "wiredep -s index.html"
+    "bower-install": "bower install --save",
+    "postbower-install": "wiredep -s *.html"
   },
   "repository": {
     "type": "git",
