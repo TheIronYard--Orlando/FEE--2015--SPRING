@@ -1,0 +1,19 @@
+{
+  "name": "TIY-Gradebook",
+  "version": "0.0.0",
+  "description": "Assignment 24: One Helluva Ride",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theironyard--orlando/fee--2015--spring"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/theironyard--orlando/fee--2015--spring/issues"
+  },
+  "homepage": "https://github.com/theironyard--orlando/fee--2015--spring"
+}
