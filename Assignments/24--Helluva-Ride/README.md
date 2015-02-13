@@ -196,3 +196,7 @@ assert.equal(toRoman(9999), undefined);
 
 You might need to learn something about [Roman Numberals](http://en.wikipedia.org/wiki/Roman_numerals) to finish this one.
 
+## Additional Resources
+
+* [Immediately Invoked Function Expression (IIFE)](http://en.wikipedia.org/wiki/Immediately-invoked_function_expression)
+* [Emmet.io](http://emmet.io/)
