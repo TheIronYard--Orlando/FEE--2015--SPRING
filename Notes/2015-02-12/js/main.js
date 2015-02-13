@@ -1,6 +1,6 @@
 (function(){
   var vm = new Vue({
-    el: '#vue-panel',
+    el: '.assignments',
     data: {
       assignments: [ ]
     },

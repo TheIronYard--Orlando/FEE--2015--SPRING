@@ -24,17 +24,17 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-          <div id="vue-panel" class="panel panel-default" v-repeat="assignment: assignments">
-            <div class="panel-heading">
+          <dl class="assignments panel panel-default" v-repeat="assignment: assignments">
+            <dt class="panel-heading">
               <h3 class="panel-title">
                 <a href="#">{{assignment.title}}</a></h3>
-            </div>
-            <div class="panel-body">
+            </dt>
+            <dd class="panel-body">
               <div class="progress">
                 <style>
-                .progress-bar.progress-bar-extra {
-                  background-color: #999;
-                }
+                  .progress-bar.progress-bar-extra {
+                    background-color: #999;
+                  }
                 </style>
                 <div class="progress-bar progress-bar-success"
                     style="width:{{percentGreens(assignment)}}%">
@@ -56,33 +56,8 @@
                   ({{assignment.total - (labeled(assignment))}})
                 </div>
               </div> <!-- .progress -->
-            </div> <!-- .panel-body -->
-          </div> <!-- .panel.panel-default #vue-panel -->
-          <div id="jquery-panel" class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Assignment 00: jQuery Yourself</h3>
-            </div>
-            <div class="panel-body">
-              <div class="progress">
-              <style>
-              .progress-bar.progress-bar-extra {
-                background-color: #999;
-              }
-              </style>
-              <div class="progress-bar progress-bar-success" style="width:36%">
-                36% (4)
-              </div>
-              <div class="progress-bar progress-bar-warning" style="width:18%">
-                18% (2)
-              </div>
-              <div class="progress-bar progress-bar-danger" style="width:9%">
-                9% (1)
-              </div>
-              <div class="progress-bar progress-bar-extra progress-bar-striped" style="width:37%">
-                37% (4)
-              </div>
-            </div> <!-- .panel-body -->
-          </div> <!-- .panel.panel-default #jquery-panel -->
+            </dd> <!-- .panel-body -->
+          </dl> <!-- .panel.panel-default #vue-panel -->
         </div><!-- .container -->
 
         <!-- bower:js -->
