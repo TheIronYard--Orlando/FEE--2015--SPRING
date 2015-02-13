@@ -7,7 +7,8 @@
     "test": "mocha tests/",
     "bower": "bower",
     "bower-install": "bower install --save",
-    "postbower-install": "wiredep -s *.html"
+    "postbower-install": "wiredep -s *.html",
+    "serve": "browser-sync start --server --files='index.html,css/main.css,js/main.js'"
   },
   "repository": {
     "type": "git",
