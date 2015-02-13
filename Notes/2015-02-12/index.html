@@ -53,7 +53,7 @@
                 <div class="progress-bar progress-bar-extra progress-bar-striped"
                     style="width:{{100 - percentTotal(assignment)}}%">
                   {{100 - percentTotal(assignment)}}%
-                  ({{assignment.total - (assignment.labeled)}})
+                  ({{assignment.total - (labeled(assignment))}})
                 </div>
               </div> <!-- .progress -->
             </div> <!-- .panel-body -->
