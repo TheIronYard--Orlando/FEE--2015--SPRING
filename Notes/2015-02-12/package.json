@@ -8,7 +8,8 @@
     "bower": "bower",
     "bower-install": "bower install --save",
     "postbower-install": "wiredep -s *.html",
-    "serve": "browser-sync start --server --files='index.html,css/main.css,js/main.js'"
+    "serve": "browser-sync start --server --files='index.html,css/main.css,js/main.js'",
+    "sass": "./bin/node-sass.zsh"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/theironyard--orlando/fee--2015--spring",
   "devDependencies": {
     "bower": "^1.3.12",
+    "node-sass": "^2.0.1",
     "wiredep": "^2.2.2"
   }
 }

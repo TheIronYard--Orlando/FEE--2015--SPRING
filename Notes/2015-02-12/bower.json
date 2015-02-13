@@ -20,8 +20,10 @@
   ],
   "dependencies": {
     "lodash": "~3.2.0",
-    "bootstrap": "~3.3.2",
     "vue": "~0.11.5",
     "modernizr": "~2.8.3"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.3"
   }
 }
