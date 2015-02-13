@@ -24,12 +24,12 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-          <dl class="assignments panel panel-default" v-repeat="assignment: assignments">
-            <dt class="panel-heading">
-              <h3 class="panel-title">
+          <dl class="assignments" v-repeat="assignment: assignments">
+            <dt>
+              <h3>
                 <a href="#">{{assignment.title}}</a></h3>
             </dt>
-            <dd class="panel-body">
+            <dd>
               <div class="progress">
                 <style>
                   .progress-bar.progress-bar-extra {
