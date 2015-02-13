@@ -24,10 +24,10 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-          <div id="vue-panel" class="panel panel-default" v-repeat="2">
+          <div id="vue-panel" class="panel panel-default" v-repeat="assignment: assignments">
             <div class="panel-heading">
               <h3 class="panel-title">
-                <a href="#">Assignment 00: Vue Yourself</a></h3>
+                <a href="#">{{assignment.title}}</a></h3>
             </div>
             <div class="panel-body">
               <div class="progress">
@@ -36,19 +36,24 @@
                   background-color: #999;
                 }
                 </style>
-                <div class="progress-bar progress-bar-success" style="width:{{percent(greens)}}%">
-                  {{percent(greens)}}% ({{greens}})
+                <div class="progress-bar progress-bar-success"
+                    style="width:{{percent(assignment.greens, assignment.total)}}%">
+                  {{percent(assignment.greens, assignment.total)}}% ({{assignment.greens}})
                 </div>
-                <div class="progress-bar progress-bar-warning" style="width:{{percent(yellows)}}%">
-                  {{percent(yellows)}}% ({{yellows}})
+                <div class="progress-bar progress-bar-warning"
+                    style="width:{{percent(assignment.yellows, assignment.total)}}%">
+                  {{percent(assignment.yellows, assignment.total)}}%
+                  ({{assignment.yellows}})
                 </div>
-                <div class="progress-bar progress-bar-danger" style="width:{{percent(reds)}}%">
-                  {{percent(reds)}}% ({{reds}})
+                <div class="progress-bar progress-bar-danger"
+                    style="width:{{percent(assignment.reds, assignment.total)}}%">
+                  {{percent(assignment.reds, assignment.total)}}%
+                  ({{assignment.reds}})
                 </div>
                 <div class="progress-bar progress-bar-extra progress-bar-striped"
-                    style="width:{{100 - percentTotal}}%">
-                  {{100 - percentTotal}}%
-                  ({{total - (greens + yellows + reds)}})
+                    style="width:{{100 - percentTotal(assignment)}}%">
+                  {{100 - percentTotal(assignment)}}%
+                  ({{assignment.total - (assignment.greens + assignment.yellows + assignment.reds)}})
                 </div>
               </div> <!-- .progress -->
             </div> <!-- .panel-body -->
