@@ -125,6 +125,37 @@ textarea {
       }
     }
   }
+
+  .piece {
+    position: relative;
+    top: 2px;
+  }
+  .piece:before {
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-size: 6vw;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+
+  .piece.black.king:before {
+    content: '\265a';
+  }
+  .piece.black.queen:before {
+    content: '\265b';
+  }
+  .piece.black.rook:before {
+    content: '\265c';
+  }
+  .piece.black.bishop:before {
+    content: '\265d';
+  }
+  .piece.black.knight:before {
+    content: '\265e';
+  }
+  .piece.black.pawn:before {
+    content: '\265f';
+  }
 }
 
 
