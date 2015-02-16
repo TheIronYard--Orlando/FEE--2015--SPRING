@@ -33,10 +33,10 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-repeat="rank: ranks">
-              <th>{{rank}}</th>
-              <td v-repeat="file: files"></td>
-              <th>{{rank}}</th>
+            <tr v-repeat="row: board">
+              <th>{{ranks[$index]}}</th>
+              <td v-repeat="square: row" class="{{classFor(square)}}"></td>
+              <th>{{ranks[$index]}}</th>
             </tr>
           </tbody>
         </table>

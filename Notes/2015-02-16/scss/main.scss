@@ -138,23 +138,42 @@ textarea {
     top: 0; left: 0; right: 0; bottom: 0;
   }
 
-  .piece.black.king:before {
+  .black.king:before {
     content: '\265a';
   }
-  .piece.black.queen:before {
+  .black.queen:before {
     content: '\265b';
   }
-  .piece.black.rook:before {
+  .black.rook:before {
     content: '\265c';
   }
-  .piece.black.bishop:before {
+  .black.bishop:before {
     content: '\265d';
   }
-  .piece.black.knight:before {
+  .black.knight:before {
     content: '\265e';
   }
-  .piece.black.pawn:before {
+  .black.pawn:before {
     content: '\265f';
+  }
+
+  .white.king:before {
+    content: '\2654';
+  }
+  .white.queen:before {
+    content: '\2655';
+  }
+  .white.rook:before {
+    content: '\2656';
+  }
+  .white.bishop:before {
+    content: '\2657';
+  }
+  .white.knight:before {
+    content: '\2658';
+  }
+  .white.pawn:before {
+    content: '\2659';
   }
 }
 
