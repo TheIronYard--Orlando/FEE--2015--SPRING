@@ -97,7 +97,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.dark-square {
+  background-color: cornflowerblue;
+}
 
+#chessboard {
+  width: 100%;
+  td, th {
+    width: 10%;
+  }
+  td {
+    padding-bottom: 10%;
+  }
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  tbody {
+    tr:nth-child(even) {
+      td:nth-child(even) {
+        @extend .dark-square
+      }
+    }
+    tr:nth-child(odd) {
+      td:nth-child(odd){
+        @extend .dark-square
+      }
+    }
+  }
+}
 
 
 
