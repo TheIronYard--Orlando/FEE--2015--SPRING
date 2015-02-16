@@ -1,0 +1,18 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap";
+
+dl.assignments {
+  @extend .panel;
+  @extend .panel-default;
+
+  dt {
+    @extend .panel-heading;
+    h3 {
+      @extend .panel-title;
+    }
+  }
+  dd {
+    @extend .panel-body;
+  }
+  
+}

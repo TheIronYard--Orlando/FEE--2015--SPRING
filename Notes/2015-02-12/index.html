@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+          <dl class="assignments" v-repeat="assignment: assignments">
+            <dt>
+              <h3>
+                <a href="#">{{assignment.title}}</a></h3>
+            </dt>
+            <dd>
+              <div class="progress">
+                <style>
+                  .progress-bar.progress-bar-extra {
+                    background-color: #999;
+                  }
+                </style>
+                <div class="progress-bar progress-bar-success"
+                    style="width:{{percentGreens(assignment)}}%">
+                  {{percentGreens(assignment)}}% ({{assignment.greens}})
+                </div>
+                <div class="progress-bar progress-bar-warning"
+                    style="width:{{percentYellows(assignment)}}%">
+                  {{percentYellows(assignment)}}%
+                  ({{assignment.yellows}})
+                </div>
+                <div class="progress-bar progress-bar-danger"
+                    style="width:{{percentReds(assignment)}}%">
+                  {{percentReds(assignment)}}%
+                  ({{assignment.reds}})
+                </div>
+                <div class="progress-bar progress-bar-extra progress-bar-striped"
+                    style="width:{{100 - percentTotal(assignment)}}%">
+                  {{100 - percentTotal(assignment)}}%
+                  ({{assignment.total - (labeled(assignment))}})
+                </div>
+              </div> <!-- .progress -->
+            </dd> <!-- .panel-body -->
+          </dl> <!-- .panel.panel-default #vue-panel -->
+        </div><!-- .container -->
+
+        <!-- bower:js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/lodash/lodash.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/vue/dist/vue.js"></script>
+        <!-- endbower -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
