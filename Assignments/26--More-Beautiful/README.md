@@ -1,4 +1,4 @@
-# 26 -- Build Me Something Beautiful, Part 2
+# 26 -- More Beautiful APIs
 
 ## Description
 
