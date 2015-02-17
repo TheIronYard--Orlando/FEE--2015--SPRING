@@ -1,3 +1,5 @@
+Assignment 26: More Beautiful
+
 * [ ] [**Retrospective**](../wiki/Retrospective--Midway]
   * What did we do well? What should we continue?
   * What should we improve? What should we stop?
