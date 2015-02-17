@@ -11,10 +11,10 @@ I want to see your team _plan first_. Sell me on an idea. Ping me on Slack. Get 
 ## Requirements
 
 * _WIP Issue:_ `25 -- Something Beautiful`
-  * link to `TIY-Mashup#1 -- Planning`
-  * links to _all_ PRs in `TIY-Mashup`
-  * link to deployment
-* _WIP Branch:_
+  * link to issue 1 in repo `TIY-Mashup` with title `Planning`
+  * links to _all_ PRs in `TIY-Mashup` repo
+  * link to deployment URL
+* _WIP Branch:_ in _new_ repo named `TIY-Mashup`
   * work in: `TIY-Mashup:feature/*`
   * merge to: `TIY-Mashup:master`
   * deploy to: `TIY-Mashup/gh-pages`
