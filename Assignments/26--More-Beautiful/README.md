@@ -27,3 +27,10 @@ APIs that require Authentication are a little harder to use than those that don'
     * [User Authentication](http://j.mp/1ALOsUy)
   * [ReST API](https://www.firebase.com/docs/rest/)
   * [Open Data Sets](https://www.firebase.com/docs/open-data/)
+
+### Security Restrictions
+
+* [Same-Origin Security Policy](http://j.mp/1L4tbZr)
+* [Cross-Origin Resource Sharing (CORS)](http://j.mp/1L4sYp6)
+* [JSONP (A Creative Hack)](http://j.mp/1L4txz5)
+* [Server-Side Proxy](http://j.mp/1L4w24n)
