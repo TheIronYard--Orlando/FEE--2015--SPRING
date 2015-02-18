@@ -34,3 +34,9 @@ APIs that require Authentication are a little harder to use than those that don'
 * [Cross-Origin Resource Sharing (CORS)](http://j.mp/1L4sYp6)
 * [JSONP (A Creative Hack)](http://j.mp/1L4txz5)
 * [Server-Side Proxy](http://j.mp/1L4w24n)
+
+### Resolving Merge Conflicts
+
+* [_How to Deal With Merge Conflicts_ by Tobias Günther](http://css-tricks.com/deal-merge-conflicts-git/)
+* [_Diff Tools on Mac OS X_ by Tower](http://www.git-tower.com/blog/diff-tools-mac/)
+* [_Learn Version Control with Git: Diff & Merge Tools_ by Tower](http://www.git-tower.com/learn/ebook/command-line/tools-services/diff-merge-tools)
