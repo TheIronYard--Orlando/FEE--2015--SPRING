@@ -30,8 +30,8 @@
 							<button class="destroy" v-on="click: remove(task)"></button>
 						</div>
 						<input class="edit" v-model="task.text" v-on="
-							blur: unedit(task),
-							keyup: unedit(task) | key enter
+							blur: save(task),
+							keyup: save(task) | key enter
 						">
 					</li>
 				</ul>
