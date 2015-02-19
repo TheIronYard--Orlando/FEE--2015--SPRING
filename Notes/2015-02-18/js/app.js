@@ -18,13 +18,22 @@
 			tasks: getTasks()
 		},
 		methods: {
+			/**
+			 * @param Object task to remove
+			 */
 			remove: function(task){
 				this.tasks.splice(this.tasks.indexOf(task), 1);
 				setTasks(this.tasks);
 			},
+			/**
+			 * @param Object task to edit
+			 */
 			edit: function(task){
 				task.editing = true;
 			},
+			/**
+			 * @param Object task to save
+			 */
 			save: function(task){
 				task.editing = false;
 				setTasks(this.tasks);
