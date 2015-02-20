@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "vue": "~0.11.5"
+    "vue": "~0.11.5",
+    "firebase": "~2.2.0"
   }
 }
