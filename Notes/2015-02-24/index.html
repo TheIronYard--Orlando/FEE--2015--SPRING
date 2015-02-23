@@ -24,19 +24,19 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <table id="chessboard">
+        <table id="chessboard" ng-app="chessboard" ng-controller="MainController as game">
           <thead>
             <tr>
               <td></td>
-              <th v-repeat="file: files">{{file}}</th>
+              <th ng-repeat="file in game.files">{{file}}</th>
               <td></td>
             </tr>
           </thead>
-          <tbody>
-            <tr v-repeat="row: board">
-              <th>{{ranks[$index]}}</th>
-              <td v-repeat="square: row" class="{{classFor(square)}}"></td>
-              <th>{{ranks[$index]}}</th>
+          <tbody ng-click="game.moveRook()">
+            <tr ng-repeat="row in game.board track by $index">
+              <th>{{game.ranks[$index]}}</th>
+              <td ng-repeat="square in row track by $index" ng-class="game.classFor(square)"></td>
+              <th>{{game.ranks[$index]}}</th>
             </tr>
           </tbody>
         </table>
