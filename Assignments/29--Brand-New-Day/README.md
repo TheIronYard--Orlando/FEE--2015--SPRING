@@ -56,6 +56,16 @@ Spend time this evening with _Shaping Up_, working through levels 1 & 2 on your 
       * `gymnastics.js`
       * `**/README.md` -- Documentation
       * `**/*.json` -- Saved JSON data
+    * `angular/src/`
+      * `menu.html`
+      * `products.html`
+      * `product.html`
+      * `scss/`
+        * **delete** `main.scss`
+        * `menu.scss`
+        * `products.scss`
+        * `product.scss`
+      * `css/` -- ignored
   * `TIY-Assignments:pub/` -- from Shaping Up
 
 ## Additional Notes
