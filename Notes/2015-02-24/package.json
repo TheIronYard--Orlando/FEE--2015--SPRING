@@ -1,0 +1,19 @@
+{
+  "name": "2015-02-24",
+  "version": "0.0.0",
+  "description": "Assignment 30: Angularize me, Cap'n!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING/issues"
+  },
+  "homepage": "https://github.com/TheIronYard--Orlando/FEE--2015--SPRING"
+}
