@@ -49,4 +49,7 @@ Keep on shaping up! Focus on levels 2 & 3 tonight and keep transcribing your cod
   * check out [recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) and [plugins](http://gulpjs.com/plugins)
   * autoload `gulp-` plugins with [`gulp-load-plugins'](https://github.com/jackfranklin/gulp-load-plugins)
   * **BONUS:** CDNify Bower deps with [`gulp-google-cdn'](https://github.com/sindresorhus/gulp-google-cdn)
+* [_Why `git` is better than X_ by Scott Chacon (forked)](http://thkoch2001.github.io/whygitisbetter/)
+* [_Flash of Unstyled Content_ on Wikipedia](http://en.wikipedia.org/wiki/Flash_of_unstyled_content)
+* [_Avoiding the FOUC (V3)_ by Paul Irish](http://www.paulirish.com/2009/avoiding-the-fouc-v3/)
 
