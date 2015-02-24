@@ -1,8 +1,7 @@
 angular.module('chessboard', [ ])
   .controller('MainController', function(){
-    this.files = 'ABCDEFGH';
-
     this.ranks = '87654321';
+    this.files = 'ABCDEFGH';
 
     this.board = board();
 
@@ -45,4 +44,3 @@ function classFor(piece){
     return 'piece black king';
   }
 }
-

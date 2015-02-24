@@ -3,10 +3,16 @@ var chessboard = new Vue({
   data: {
     ranks: '87654321',
     files: 'ABCDEFGH',
+
     board: board()
   },
   methods: {
-    classFor: classFor
+    classFor: classFor,
+    
+    moveRook: function(){
+      this.board[7][0] = this.board[0][0];
+      this.board[0][0] = ' ';
+    } // END moveRook
   }
 });
 
