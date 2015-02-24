@@ -1,20 +1,18 @@
-var chessboard = new Vue({
-  el: '#chessboard',
-  data: {
-    ranks: '87654321',
-    files: 'ABCDEFGH',
+angular.module('chessboard', [ ])
+  .controller('MainController', function(){
+    this.ranks = '87654321';
+    this.files = 'ABCDEFGH';
 
-    board: board()
-  },
-  methods: {
-    classFor: classFor,
-    
-    moveRook: function(){
+    this.board = board();
+
+    this.classFor = classFor;
+
+    this.moveRook = function(){
       this.board[7][0] = this.board[0][0];
       this.board[0][0] = ' ';
-    } // END moveRook
-  }
-});
+    }; // END moveRook()
+  }) // END controller(MainController)
+; // END module(chessboard)
 
 function board(){
   return [
@@ -46,15 +44,3 @@ function classFor(piece){
     return 'piece black king';
   }
 }
-
-
-setTimeout(function(){
-    var newBoard = board();
-
-    newBoard[7][0] = newBoard[0][0];
-    newBoard[0][0] = ' ';
-
-    console.log(newBoard.join('\n'));
-
-    chessboard.board = newBoard;
-}, 5000);
