@@ -1,4 +1,4 @@
-### Wednesday
+Assignment 3X: All Your Routes are Belong to Us
 
 * [ ] **Progress Review**
   * Codrops prototypes
