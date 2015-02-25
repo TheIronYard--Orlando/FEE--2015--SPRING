@@ -1,4 +1,4 @@
-# 3X -- How About a Nice Dependency Injection?
+# 31 -- How About a Nice Dependency Injection?
 
 ## Description
 
@@ -14,7 +14,7 @@ Work on the next two levels and keep your code in `TIY-Assignments` as before.
 
 ## Requirements
 
-* _WIP Issue:_ `3X -- Dependency Injection`
+* _WIP Issue:_ `31 -- Dependency Injection`
   * link to any PRs that you open in `TIY-Catalog`
   * link to your PR in `TIY-Assignments`
 * _WIP Branch:_
